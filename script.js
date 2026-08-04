@@ -1,4 +1,4 @@
-// JavaScript for M&V Consulting Standalone Web App
+// JavaScript for VV Soluciones Financieras Standalone Web App
 
 document.addEventListener('DOMContentLoaded', () => {
   // Initialize Lucide Icons
@@ -56,13 +56,13 @@ function openModal(serviceTitle) {
 
   if (emailBtn) {
     const subject = encodeURIComponent(`Solicitud de Cotización - ${serviceTitle}`);
-    const body = encodeURIComponent(`Hola M&V Consulting,\n\nMe gustaría solicitar una cotización para el servicio de: ${serviceTitle}.\n\nQuedo atento a su respuesta.\n\nSaludos.`);
-    emailBtn.href = `mailto:consultoresmv20@gmail.com?subject=${subject}&body=${body}`;
+    const body = encodeURIComponent(`Hola VV Soluciones Financieras,\n\nMe gustaría solicitar una cotización para el servicio de: ${serviceTitle}.\n\nQuedo atento a su respuesta.\n\nSaludos.`);
+    emailBtn.href = `mailto:contacto@vvsoluciones.com?subject=${subject}&body=${body}`;
   }
 
   if (whatsappBtn) {
-    const text = encodeURIComponent(`Hola M&V Consulting, me gustaría solicitar información y cotización para el servicio de: ${serviceTitle}.`);
-    whatsappBtn.href = `https://wa.me/50766782482?text=${text}`;
+    const text = encodeURIComponent(`Hola VV Soluciones Financieras, me gustaría solicitar información y cotización para el servicio de: ${serviceTitle}.`);
+    whatsappBtn.href = `https://wa.me/50760000000?text=${text}`;
   }
 
   if (modalOverlay) {

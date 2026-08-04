@@ -3,8 +3,60 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>M&V Consulting | Contabilidad & Auditoría en Panamá</title>
+  <title>VV Soluciones Financieras | Asesoría, Contabilidad & Auditoría en Panamá</title>
   
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Firma consultora en Panamá especializada en contabilidad general, auditoría financiera, asesoría fiscal, tributaria, trámites legales y planillas SIPE para empresas y PYMES.">
+  <meta name="keywords" content="contabilidad panama, auditoria financiera panama, asesoria fiscal panama, firma contable panama, SIPE DGI panama, consultoria financiera, declaraciones de renta panama">
+  <meta name="author" content="VV Soluciones Financieras">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://vvsoluciones.com/">
+
+  <!-- Open Graph / Facebook / WhatsApp -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://vvsoluciones.com/">
+  <meta property="og:title" content="VV Soluciones Financieras | Asesoría & Finanzas en Panamá">
+  <meta property="og:description" content="Consultoría contable, financiera, auditoría y servicios fiscales estratégicos para PYMES y empresas en Panamá.">
+  <meta property="og:site_name" content="VV Soluciones Financieras">
+  <meta property="og:locale" content="es_PA">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="VV Soluciones Financieras | Panamá">
+  <meta name="twitter:description" content="Servicios integrales de contabilidad, auditoría, asesoría fiscal y legal corporativa en Panamá.">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AccountingService",
+    "name": "VV Soluciones Financieras",
+    "description": "Firma de consultoría especializada en gestión financiera, contable, auditoría y servicios fiscales corporativos en Panamá.",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Ciudad de Panamá",
+      "addressCountry": "PA"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": "8.9824",
+      "longitude": "-79.5199"
+    },
+    "url": "https://vvsoluciones.com",
+    "telephone": "+507-6000-0000",
+    "email": "contacto@vvsoluciones.com",
+    "priceRange": "$$",
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+        "opens": "09:00",
+        "closes": "18:00"
+      }
+    ]
+  }
+  </script>
+
   <!-- Tailwind CSS CDN -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
@@ -32,40 +84,36 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-blue-600/25 selection:text-slate-900 min-h-screen flex flex-col">
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-[#0f2b5c]/25 selection:text-slate-900 min-h-screen flex flex-col">
 
   <!-- HEADER -->
   <header id="main-header" class="sticky top-0 z-50 transition-all duration-300 bg-white py-5 border-b border-slate-100">
     <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
       <!-- Logo -->
       <a href="#inicio" class="flex items-center gap-3.5 group">
-        <div class="w-10 h-10 bg-blue-600 flex items-center justify-center rounded-sm rotate-45 group-hover:scale-105 transition-transform duration-300 shadow-sm">
+        <div class="w-10 h-10 bg-[#0f2b5c] flex items-center justify-center rounded-none rotate-45 group-hover:scale-105 transition-transform duration-300 shadow-sm border border-[#091b3b]">
           <div class="w-5 h-5 border-2 border-white -rotate-45 flex items-center justify-center">
             <i data-lucide="shield" class="w-3.5 h-3.5 text-white fill-current"></i>
           </div>
         </div>
         <div>
           <span class="font-sans font-black text-xl md:text-2xl tracking-tighter text-slate-900 block">
-            M&V <span class="text-blue-600 font-normal">Consulting</span>
+            VV <span class="text-[#0f2b5c] font-normal">Soluciones Financieras</span>
           </span>
           <span class="font-mono font-bold text-[9px] uppercase tracking-widest text-slate-500 block -mt-1">
-            Contabilidad & Auditoría
+            Asesoría & Finanzas
           </span>
         </div>
       </a>
 
       <!-- Desktop Navigation -->
       <nav class="hidden lg:flex items-center gap-1">
-        <a href="#inicio" class="px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-slate-700 hover:text-blue-600 hover:bg-blue-50/80 transition-all border-b-2 border-transparent hover:border-blue-600">Inicio</a>
-        <a href="#nosotros" class="px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-slate-700 hover:text-blue-600 hover:bg-blue-50/80 transition-all border-b-2 border-transparent hover:border-blue-600">Nosotros</a>
-        <a href="#mision-vision" class="px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-slate-700 hover:text-blue-600 hover:bg-blue-50/80 transition-all border-b-2 border-transparent hover:border-blue-600">Misión y Visión</a>
-        <a href="#valores" class="px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-slate-700 hover:text-blue-600 hover:bg-blue-50/80 transition-all border-b-2 border-transparent hover:border-blue-600">Valores</a>
-        <a href="#servicios" class="px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-slate-700 hover:text-blue-600 hover:bg-blue-50/80 transition-all border-b-2 border-transparent hover:border-blue-600">Servicios</a>
-        <a href="#contacto" class="px-3.5 py-2 text-xs font-bold uppercase tracking-wider text-slate-700 hover:text-blue-600 hover:bg-blue-50/80 transition-all border-b-2 border-transparent hover:border-blue-600">Contacto</a>
-
-        <button onclick="openModal('Consulta General')" class="ml-5 px-5 py-2.5 text-xs font-black uppercase tracking-widest text-white bg-blue-600 hover:bg-blue-700 transition-all shadow-md shadow-blue-600/20">
-          Consulta Gratis
-        </button>
+        <a href="#inicio" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-slate-100 transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Inicio</a>
+        <a href="#nosotros" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-slate-100 transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Nosotros</a>
+        <a href="#mision-vision" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-slate-100 transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Misión y Visión</a>
+        <a href="#valores" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-slate-100 transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Valores</a>
+        <a href="#servicios" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-slate-100 transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Servicios</a>
+        <a href="#contacto" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-slate-100 transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Contacto</a>
       </nav>
 
       <!-- Mobile Menu Button -->
@@ -77,47 +125,48 @@
     <!-- Mobile Navigation Drawer -->
     <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-200 shadow-xl">
       <div class="px-6 py-4 flex flex-col gap-1.5">
-        <a href="#inicio" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-blue-600 hover:bg-blue-50">Inicio</a>
-        <a href="#nosotros" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-blue-600 hover:bg-blue-50">Nosotros</a>
-        <a href="#mision-vision" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-blue-600 hover:bg-blue-50">Misión y Visión</a>
-        <a href="#valores" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-blue-600 hover:bg-blue-50">Valores</a>
-        <a href="#servicios" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-blue-600 hover:bg-blue-50">Servicios</a>
-        <a href="#contacto" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-blue-600 hover:bg-blue-50">Contacto</a>
-        <button onclick="openModal('Consulta General'); closeMobileMenu();" class="mt-3 w-full text-center py-3.5 font-black uppercase text-xs tracking-wider text-white bg-blue-600 hover:bg-blue-700 transition-colors shadow-md">
-          Consulta Gratis
-        </button>
+        <a href="#inicio" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-[#0f2b5c] hover:bg-slate-100">Inicio</a>
+        <a href="#nosotros" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-[#0f2b5c] hover:bg-slate-100">Nosotros</a>
+        <a href="#mision-vision" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-[#0f2b5c] hover:bg-slate-100">Misión y Visión</a>
+        <a href="#valores" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-[#0f2b5c] hover:bg-slate-100">Valores</a>
+        <a href="#servicios" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-[#0f2b5c] hover:bg-slate-100">Servicios</a>
+        <a href="#contacto" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-[#0f2b5c] hover:bg-slate-100">Contacto</a>
       </div>
     </div>
   </header>
 
   <!-- HERO SECTION -->
   <section id="inicio" class="relative min-h-[85vh] flex items-center bg-gradient-to-b from-slate-50 via-blue-50/20 to-white overflow-hidden py-16 lg:py-24 border-b border-slate-200/60">
+    <!-- Background soft ambient glows -->
     <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-400/10 rounded-full blur-3xl pointer-events-none"></div>
     <div class="absolute bottom-0 left-[-10%] w-[600px] h-[600px] bg-sky-300/10 rounded-full blur-3xl pointer-events-none"></div>
 
+    <!-- Grid overlay -->
+    <div class="absolute inset-0 bg-[linear-gradient(to_right,#00000005_1px,transparent_1px),linear-gradient(to_bottom,#00000005_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
+
     <div class="max-w-7xl mx-auto px-6 w-full relative z-10 grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
       <!-- Left Content -->
-      <div class="lg:col-span-7">
-        <div class="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 px-4 py-2 text-xs font-black text-blue-700 tracking-widest uppercase mb-6">
-          <i data-lucide="shield-check" class="w-4 h-4 text-blue-600"></i>
-          <span>Consultoría Profesional en Panamá</span>
+      <div class="lg:col-span-7 flex flex-col items-start text-left">
+        <div class="inline-flex items-center gap-2 bg-[#0f2b5c] text-white rounded-none px-4 py-2 text-xs font-black tracking-widest uppercase mb-6 shadow-md border border-[#1b4386]/40">
+          <i data-lucide="shield-check" class="w-4 h-4 text-white"></i>
+          <span>Consultoría Financiera & Corporativa en Panamá</span>
         </div>
 
         <h1 class="font-sans font-black text-4xl sm:text-5xl lg:text-6xl tracking-tighter text-slate-900 mb-6 leading-[1.1] uppercase">
           ESTRATEGIA QUE <br />
-          <span class="text-blue-600">DEFINE TU ÉXITO</span>
+          <span class="text-[#0f2b5c]">DEFINE TU ÉXITO</span>
         </h1>
 
         <p class="text-base md:text-lg text-slate-600 font-medium max-w-xl mb-8 leading-relaxed">
           Impulsamos tu crecimiento comercial y corporativo con total transparencia, rigor técnico y la máxima confianza en el mercado panameño.
         </p>
 
-        <div class="flex flex-col sm:flex-row gap-4">
-          <a href="#servicios" class="inline-flex items-center justify-center gap-3 px-8 py-4 bg-blue-600 hover:bg-blue-700 text-white text-xs font-black uppercase tracking-widest transition-all shadow-xl shadow-blue-600/20">
+        <div class="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+          <a href="#servicios" class="group inline-flex items-center justify-center gap-3 px-8 py-4 bg-[#0f2b5c] hover:bg-[#18458c] text-white rounded-none text-xs font-black uppercase tracking-widest transition-all duration-200 shadow-xl shadow-[#0f2b5c]/30 border border-[#1b4386]/40">
             Conoce nuestros servicios
             <i data-lucide="arrow-right" class="w-4 h-4"></i>
           </a>
-          <a href="#contacto" class="inline-flex items-center justify-center px-8 py-4 border-2 border-slate-300 hover:border-slate-800 text-slate-800 text-xs font-black uppercase tracking-widest bg-white hover:bg-slate-50 transition-all">
+          <a href="#contacto" class="inline-flex items-center justify-center px-8 py-4 border-2 border-slate-900 hover:bg-slate-900 hover:text-white text-slate-900 rounded-none text-xs font-black uppercase tracking-widest bg-white transition-all duration-200 shadow-sm">
             Hablemos hoy
           </a>
         </div>
@@ -125,335 +174,437 @@
 
       <!-- Right Card -->
       <div class="lg:col-span-5 relative w-full">
-        <div class="relative bg-white border-2 border-slate-200 p-8 md:p-10 shadow-xl overflow-hidden">
-          <div class="absolute top-0 right-0 bg-blue-600 text-white font-mono font-black text-[10px] uppercase tracking-widest px-4 py-2.5">
-            M&V FIRMA
+        <!-- Accent Rotated block in background -->
+        <div class="absolute inset-0 bg-[#0f2b5c]/15 translate-x-3 translate-y-3 rounded-none pointer-events-none"></div>
+
+        <div class="relative bg-white border-2 border-slate-300 rounded-none p-8 md:p-10 shadow-2xl overflow-hidden">
+          <div class="absolute top-0 right-0 bg-[#0f2b5c] text-white font-mono font-black text-[10px] uppercase tracking-widest px-4 py-2.5 shadow-sm border-b border-l border-[#1b4386]/40">
+            FINANZAS
           </div>
 
           <div class="space-y-6 pt-4">
             <div class="flex items-start gap-4">
-              <div class="bg-blue-50 text-blue-600 p-3 border border-blue-200 shrink-0">
-                <i data-lucide="award" class="w-5 h-5"></i>
+              <div class="bg-[#0f2b5c] text-white p-3 rounded-none border border-[#1b4386]/40 shrink-0 shadow-md">
+                <i data-lucide="award" class="w-5 h-5 text-white"></i>
               </div>
               <div>
-                <h3 class="text-slate-900 font-black uppercase tracking-wide text-sm">Excelencia de Servicio</h3>
+                <h3 class="text-slate-900 font-black uppercase tracking-wide text-sm">Experiencia Comprobada</h3>
                 <p class="text-slate-600 text-sm mt-1 leading-relaxed">
-                  Atención 100% personalizada por expertos calificados (CPA y asesores legales).
+                  Más de 15 años respaldando empresas en cumplimiento tributario y fiscal.
                 </p>
               </div>
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="bg-blue-50 text-blue-600 p-3 border border-blue-200 shrink-0">
-                <i data-lucide="shield-check" class="w-5 h-5"></i>
+              <div class="bg-[#0f2b5c] text-white p-3 rounded-none border border-[#1b4386]/40 shrink-0 shadow-md">
+                <i data-lucide="shield-check" class="w-5 h-5 text-white"></i>
               </div>
               <div>
-                <h3 class="text-slate-900 font-black uppercase tracking-wide text-sm">Cumplimiento Normativo</h3>
+                <h3 class="text-slate-900 font-black uppercase tracking-wide text-sm">Rigor & Precisión</h3>
                 <p class="text-slate-600 text-sm mt-1 leading-relaxed">
-                  Garantía total en procesos fiscales, de auditoría y controles de riesgo.
+                  Auditorías exhaustivas y reportes bajo los más altos estándares normativos.
                 </p>
               </div>
             </div>
 
             <div class="flex items-start gap-4">
-              <div class="bg-blue-50 text-blue-600 p-3 border border-blue-200 shrink-0">
-                <i data-lucide="briefcase" class="w-5 h-5"></i>
+              <div class="bg-[#0f2b5c] text-white p-3 rounded-none border border-[#1b4386]/40 shrink-0 shadow-md">
+                <i data-lucide="briefcase" class="w-5 h-5 text-white"></i>
               </div>
               <div>
-                <h3 class="text-slate-900 font-black uppercase tracking-wide text-sm">Aliado de las PYMES</h3>
+                <h3 class="text-slate-900 font-black uppercase tracking-wide text-sm">Aliado Estratégico</h3>
                 <p class="text-slate-600 text-sm mt-1 leading-relaxed">
                   Soporte idóneo adaptado al tamaño, ritmo y proyecciones de tu negocio.
                 </p>
               </div>
             </div>
           </div>
-
-          <div class="mt-10 pt-6 border-t border-slate-200 flex items-center justify-between text-[10px] text-slate-500 font-mono tracking-widest">
-            <span>M&V CORE ENGINE</span>
-            <span class="text-blue-600 font-bold">100% COMPLIANT</span>
-          </div>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- ABOUT SECTION -->
-  <section id="nosotros" class="py-20 lg:py-28 relative z-10">
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="flex flex-col items-center text-center mb-16">
-        <span class="text-xs font-black uppercase tracking-widest text-blue-700 bg-blue-50 border border-blue-200 px-4 py-2 mb-4 inline-block">
-          Sobre Nosotros
-        </span>
-        <h2 class="font-sans font-black text-3xl md:text-4xl lg:text-5xl tracking-tighter text-slate-900 uppercase">
-          Nuestra Firma
-        </h2>
-        <div class="w-16 h-1 bg-blue-600 mt-4"></div>
-      </div>
+  <!-- ABOUT & MISSION / VISION WRAPPER WITH BACKGROUND -->
+  <div class="bg-[#f4f7fc] relative">
+    <!-- Background diagonal lines -->
+    <div class="absolute inset-0 geo-diagonal-stripes-dark opacity-40 pointer-events-none"></div>
 
-      <div class="grid lg:grid-cols-12 gap-8 items-stretch">
-        <div class="lg:col-span-7 bg-white p-8 md:p-10 shadow-xl border-l-[6px] border-blue-600 border-y border-r border-slate-200 flex flex-col justify-between">
-          <div>
-            <div class="bg-blue-50 text-blue-600 w-12 h-12 flex items-center justify-center mb-6 border border-blue-100">
-              <i data-lucide="users" class="w-6 h-6"></i>
-            </div>
-            <h3 class="font-sans font-black text-2xl tracking-tight text-slate-900 uppercase mb-4">
-              ¿Quiénes Somos?
-            </h3>
-            <p class="text-slate-600 leading-relaxed mb-4 text-sm md:text-base">
-              Somos una firma panameña de consultoría integral especializada en soluciones financieras, contables, fiscales y legales corporativas.
-            </p>
-            <p class="text-slate-600 leading-relaxed text-sm md:text-base">
-              Acompañamos a emprendedores, PYMES y corporaciones en el cumplimiento normativo nacional, optimizando sus procesos operativos y protegiendo su patrimonio empresarial.
-            </p>
-          </div>
-          <div class="mt-8 pt-6 border-t border-slate-100 flex items-center justify-between text-xs font-mono font-bold text-slate-500 uppercase tracking-wider">
-            <span>Rigor Técnico</span>
-            <span class="text-blue-600">Compromiso Total</span>
-          </div>
+    <!-- ABOUT SECTION -->
+    <section id="nosotros" class="section relative py-20 lg:py-28 overflow-hidden z-10">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="flex flex-col items-center text-center mb-16">
+          <span class="text-xs font-black uppercase tracking-widest text-white bg-[#0f2b5c] border border-[#1b4386]/40 px-4 py-2 rounded-none mb-4 inline-block shadow-sm">
+            Sobre Nosotros
+          </span>
+          <h2 class="font-sans font-black text-3xl md:text-4xl lg:text-5xl tracking-tighter text-slate-900 uppercase">
+            Nuestra Firma
+          </h2>
+          <div class="w-16 h-1 bg-[#0f2b5c] mt-4"></div>
         </div>
 
-        <div class="lg:col-span-5 bg-gradient-to-br from-blue-50 via-white to-blue-50/50 p-8 md:p-10 shadow-xl border-2 border-blue-200 border-l-[6px] border-l-blue-600 flex flex-col justify-between">
-          <div>
-            <div class="bg-blue-600 text-white w-12 h-12 flex items-center justify-center mb-6 shadow-md shadow-blue-600/20">
-              <i data-lucide="handshake" class="w-6 h-6"></i>
+        <div class="grid lg:grid-cols-12 gap-8 items-stretch">
+          <!-- Quiénes somos -->
+          <div class="lg:col-span-7 bg-white p-8 md:p-10 rounded-none shadow-xl border-l-[6px] border-[#0f2b5c] flex flex-col justify-between border-y border-r border-slate-300">
+            <div>
+              <div class="bg-[#0f2b5c] text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 border border-[#1b4386]/40 shadow-md">
+                <i data-lucide="users" class="w-6 h-6 text-white"></i>
+              </div>
+              <h3 class="font-sans font-black text-2xl tracking-tight text-slate-900 uppercase mb-4">
+                ¿Quiénes Somos?
+              </h3>
+              <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base font-medium">
+                Somos <strong class="text-slate-900 font-black">VV Soluciones Financieras</strong>, una firma panameña especializada en consultoría financiera, contabilidad, auditoría, servicios fiscales y asesoría corporativa, comprometida con brindar soluciones integrales que impulsen la transparencia, eficiencia y cumplimiento normativo de nuestros clientes.
+              </p>
+              <p class="text-slate-600 leading-relaxed text-sm md:text-base">
+                Nuestro equipo está conformado por contadores públicos autorizados (CPA), auditores, asesores fiscales y consultores financieros con amplia experiencia en distintos sectores económicos. Brindamos una atención personalizada, con enfoque técnico y estratégico, adaptándonos a las necesidades particulares de cada cliente.
+              </p>
             </div>
-            <h3 class="font-sans font-black text-2xl tracking-tight text-slate-900 uppercase mb-4">
-              Confianza y experiencia
-            </h3>
-            <p class="text-slate-600 leading-relaxed text-sm md:text-base">
-              Más de una década asesorando empresas en Panamá, combinando conocimiento técnico y calidez humana. Tu éxito es nuestro absoluto compromiso.
-            </p>
           </div>
-          <div class="mt-8 pt-6 border-t border-slate-200 flex items-center justify-between">
-            <span class="font-mono font-bold text-xs tracking-widest uppercase text-blue-700">
-              Estabilidad & Crecimiento
-            </span>
-            <span class="text-slate-400 text-xs font-mono">PANAMÁ</span>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
 
-  <!-- MISSION & VISION -->
-  <section id="mision-vision" class="py-20 lg:py-28 bg-white border-t border-slate-200/80">
-    <div class="max-w-7xl mx-auto px-6">
-      <div class="grid lg:grid-cols-2 gap-8 items-stretch mb-16">
-        <div class="bg-slate-50 p-8 md:p-10 border-l-[6px] border-blue-600 border-y border-r border-slate-200 shadow-md flex flex-col justify-between">
-          <div>
-            <div class="bg-blue-50 text-blue-600 w-12 h-12 flex items-center justify-center mb-6 border border-blue-100">
-              <i data-lucide="target" class="w-6 h-6"></i>
-            </div>
-            <h3 class="font-sans font-black text-xl tracking-tight uppercase text-slate-900 mb-4">
-              Nuestra Misión
-            </h3>
-            <p class="text-slate-600 leading-relaxed text-sm md:text-base">
-              Ofrecer asesoría contable, legal y de negocios con excelencia, precisión y ética, guiando a nuestros clientes hacia decisiones estratégicas oportunas que agreguen valor sostenible a sus negocios en Panamá.
-            </p>
-          </div>
-        </div>
+          <!-- Confianza y Experiencia -->
+          <div class="lg:col-span-5 bg-[#0f2b5c] text-white p-8 md:p-10 rounded-none shadow-2xl border-2 border-[#091b3b] overflow-hidden relative flex flex-col justify-between border-l-[6px] border-l-slate-900">
+            <div class="absolute right-[-10%] top-[-10%] w-40 h-40 bg-white/10 rounded-full blur-2xl pointer-events-none"></div>
 
-        <div class="bg-slate-50 p-8 md:p-10 border-l-[6px] border-blue-700 border-y border-r border-slate-200 shadow-md flex flex-col justify-between">
-          <div>
-            <div class="bg-blue-50 text-blue-700 w-12 h-12 flex items-center justify-center mb-6 border border-blue-100">
-              <i data-lucide="eye" class="w-6 h-6"></i>
+            <div>
+              <div class="bg-white/15 text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 shadow-md border border-white/20">
+                <i data-lucide="handshake" class="w-6 h-6 text-white"></i>
+              </div>
+              <h3 class="font-sans font-black text-2xl tracking-tight text-white uppercase mb-4">
+                Confianza y experiencia
+              </h3>
+              <p class="text-slate-200 leading-relaxed text-sm md:text-base font-medium">
+                Más de una década asesorando empresas en Panamá, combinando conocimiento técnico y visión estratégica. Tu éxito financiero es nuestro absoluto compromiso.
+              </p>
             </div>
-            <h3 class="font-sans font-black text-xl tracking-tight uppercase text-slate-900 mb-4">
-              Nuestra Visión
-            </h3>
-            <p class="text-slate-600 leading-relaxed text-sm md:text-base">
-              Ser reconocidos como la firma de consultoría estratégica y contable más confiable, ágil e innovadora para las pequeñas, medianas y grandes empresas en la República de Panamá.
-            </p>
+
+            <div class="mt-8 pt-6 border-t border-white/20 flex items-center justify-between">
+              <span class="font-mono font-bold text-xs tracking-widest uppercase text-sky-200">
+                Estabilidad & Crecimiento
+              </span>
+              <span class="text-slate-300 text-xs font-mono">PANAMÁ</span>
+            </div>
           </div>
         </div>
       </div>
+    </section>
 
-      <div class="flex flex-col items-center justify-center max-w-3xl mx-auto text-center bg-blue-50/80 border-l-4 border-blue-600 border-y border-r border-blue-100 p-8 shadow-sm">
-        <p class="font-serif italic text-xl md:text-2xl text-slate-900 font-bold leading-relaxed mb-3">
-          "Construyendo puentes financieros para el éxito de tu empresa"
-        </p>
-        <div class="w-12 h-1 bg-blue-600"></div>
+    <!-- MISSION & VISION SECTION -->
+    <section id="mision-vision" class="section py-20 lg:py-28 bg-white relative z-10 border-t border-slate-200/80">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="grid lg:grid-cols-2 gap-8 items-stretch mb-16">
+          <!-- Mision -->
+          <div class="bg-white p-8 md:p-10 rounded-none border-l-[6px] border-[#0f2b5c] border-y border-r border-slate-300 shadow-lg flex flex-col justify-between">
+            <div>
+              <div class="bg-[#0f2b5c] text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 border border-[#1b4386]/40 shadow-md">
+                <i data-lucide="target" class="w-6 h-6 text-white"></i>
+              </div>
+              <h3 class="font-sans font-black text-xl tracking-tight uppercase text-slate-900 mb-4">
+                Nuestra Misión
+              </h3>
+              <p class="text-slate-700 leading-relaxed text-sm md:text-base font-medium">
+                Brindar servicios de consultoría financiera, contable y fiscal con excelencia técnica y un enfoque consultivo, aportando valor real y sostenido a nuestros clientes y fortaleciendo las PYMES del país.
+              </p>
+            </div>
+          </div>
+
+          <!-- Vision -->
+          <div class="bg-white p-8 md:p-10 rounded-none border-l-[6px] border-[#091b3b] border-y border-r border-slate-300 shadow-lg flex flex-col justify-between">
+            <div>
+              <div class="bg-[#0f2b5c] text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 border border-[#1b4386]/40 shadow-md">
+                <i data-lucide="eye" class="w-6 h-6 text-white"></i>
+              </div>
+              <h3 class="font-sans font-black text-xl tracking-tight uppercase text-slate-900 mb-4">
+                Nuestra Visión
+              </h3>
+              <p class="text-slate-700 leading-relaxed text-sm md:text-base font-medium">
+                Ser una firma líder en Panamá reconocida como un socio estratégico integral para empresas que buscan orden, crecimiento sostenido y tranquilidad financiera.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
+    </section>
+  </div>
 
   <!-- VALUES SECTION -->
-  <section id="valores" class="py-20 lg:py-28 relative">
+  <section id="valores" class="py-20 lg:py-28 bg-[#f4f7fc] relative overflow-hidden">
+    <!-- Background Grid Accent -->
+    <div class="absolute inset-0 geo-diagonal-stripes-dark opacity-30 pointer-events-none"></div>
+
     <div class="max-w-7xl mx-auto px-6 relative z-10">
       <div class="flex flex-col items-center text-center mb-16">
-        <span class="text-xs font-black uppercase tracking-widest text-blue-700 bg-blue-50 border border-blue-200 px-4 py-2 mb-4 inline-block">
+        <span class="text-xs font-black uppercase tracking-widest text-white bg-[#0f2b5c] border border-[#1b4386]/40 px-4 py-2 rounded-none mb-4 inline-block shadow-sm">
           Nuestros Pilares
         </span>
         <h2 class="font-sans font-black text-3xl md:text-4xl lg:text-5xl tracking-tighter text-slate-900 uppercase">
           Valores Corporativos
         </h2>
-        <p class="text-slate-600 mt-4 max-w-xl text-sm md:text-base">
-          Los principios fundamentales que rigen cada auditoría, estado financiero y consulta legal en nuestra firma.
+        <p class="text-slate-600 mt-4 max-w-xl text-sm md:text-base font-medium">
+          Los pilares estratégicos y éticos que guían cada decisión, análisis y acción en VV Soluciones Financieras.
         </p>
-        <div class="w-16 h-1 bg-blue-600 mt-4"></div>
+        <div class="w-16 h-1 bg-[#0f2b5c] mt-4"></div>
       </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Value 1 -->
-        <div class="bg-white p-8 border border-slate-200 shadow-md hover:shadow-xl hover:-translate-y-1.5 transition-all relative group overflow-hidden border-t-4 border-t-blue-600">
-          <div class="absolute top-4 right-4 text-slate-200 group-hover:text-blue-500/25 font-mono font-black text-4xl select-none transition-colors">01</div>
-          <div class="bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white w-12 h-12 flex items-center justify-center mb-6 transition-colors border border-blue-100">
-            <i data-lucide="shield-check" class="w-5 h-5"></i>
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <!-- Value 1: Integridad -->
+        <div class="bg-white p-8 rounded-none border-2 border-slate-300 shadow-lg hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 relative group overflow-hidden border-t-4 border-t-[#0f2b5c]">
+          <div class="absolute top-0 left-0 right-0 h-1.5 bg-[#0f2b5c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+          <div class="absolute top-4 right-4 text-slate-300 group-hover:text-[#0f2b5c]/35 font-mono font-black text-4xl select-none transition-colors duration-300">01</div>
+          <div class="bg-[#0f2b5c] text-white group-hover:bg-[#18458c] w-12 h-12 rounded-none flex items-center justify-center mb-6 transition-colors duration-300 border border-[#1b4386]/40 shadow-md">
+            <i data-lucide="shield-check" class="w-5 h-5 text-white"></i>
           </div>
           <h3 class="font-sans font-black uppercase tracking-wide text-lg text-slate-900 mb-3">Integridad</h3>
-          <p class="text-slate-600 text-sm leading-relaxed">Transparencia, honestidad y ética profesional absoluta en todos nuestros compromisos.</p>
+          <p class="text-slate-600 leading-relaxed text-sm font-medium">Actuamos con ética, honestidad y responsabilidad profesional.</p>
         </div>
 
-        <!-- Value 2 -->
-        <div class="bg-white p-8 border border-slate-200 shadow-md hover:shadow-xl hover:-translate-y-1.5 transition-all relative group overflow-hidden border-t-4 border-t-blue-600">
-          <div class="absolute top-4 right-4 text-slate-200 group-hover:text-blue-500/25 font-mono font-black text-4xl select-none transition-colors">02</div>
-          <div class="bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white w-12 h-12 flex items-center justify-center mb-6 transition-colors border border-blue-100">
-            <i data-lucide="award" class="w-5 h-5"></i>
-          </div>
-          <h3 class="font-sans font-black uppercase tracking-wide text-lg text-slate-900 mb-3">Excelencia</h3>
-          <p class="text-slate-600 text-sm leading-relaxed">Máxima rigurosidad técnica y estándares de alta calidad en cada informe y auditoría.</p>
-        </div>
-
-        <!-- Value 3 -->
-        <div class="bg-white p-8 border border-slate-200 shadow-md hover:shadow-xl hover:-translate-y-1.5 transition-all relative group overflow-hidden border-t-4 border-t-blue-600">
-          <div class="absolute top-4 right-4 text-slate-200 group-hover:text-blue-500/25 font-mono font-black text-4xl select-none transition-colors">03</div>
-          <div class="bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white w-12 h-12 flex items-center justify-center mb-6 transition-colors border border-blue-100">
-            <i data-lucide="handshake" class="w-5 h-5"></i>
-          </div>
-          <h3 class="font-sans font-black uppercase tracking-wide text-lg text-slate-900 mb-3">Compromiso</h3>
-          <p class="text-slate-600 text-sm leading-relaxed">Acompañamiento continuo y personalizado para garantizar el éxito de tu empresa.</p>
-        </div>
-
-        <!-- Value 4 -->
-        <div class="bg-white p-8 border border-slate-200 shadow-md hover:shadow-xl hover:-translate-y-1.5 transition-all relative group overflow-hidden border-t-4 border-t-blue-600">
-          <div class="absolute top-4 right-4 text-slate-200 group-hover:text-blue-500/25 font-mono font-black text-4xl select-none transition-colors">04</div>
-          <div class="bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white w-12 h-12 flex items-center justify-center mb-6 transition-colors border border-blue-100">
-            <i data-lucide="lightbulb" class="w-5 h-5"></i>
-          </div>
-          <h3 class="font-sans font-black uppercase tracking-wide text-lg text-slate-900 mb-3">Innovación</h3>
-          <p class="text-slate-600 text-sm leading-relaxed">Actualización permanente en normativas fiscales y herramientas de gestión moderna.</p>
-        </div>
-
-        <!-- Value 5 -->
-        <div class="bg-white p-8 border border-slate-200 shadow-md hover:shadow-xl hover:-translate-y-1.5 transition-all relative group overflow-hidden border-t-4 border-t-blue-600 md:col-span-2 lg:col-span-1">
-          <div class="absolute top-4 right-4 text-slate-200 group-hover:text-blue-500/25 font-mono font-black text-4xl select-none transition-colors">05</div>
-          <div class="bg-blue-50 text-blue-600 group-hover:bg-blue-600 group-hover:text-white w-12 h-12 flex items-center justify-center mb-6 transition-colors border border-blue-100">
-            <i data-lucide="lock" class="w-5 h-5"></i>
+        <!-- Value 2: Confidencialidad -->
+        <div class="bg-white p-8 rounded-none border-2 border-slate-300 shadow-lg hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 relative group overflow-hidden border-t-4 border-t-[#0f2b5c]">
+          <div class="absolute top-0 left-0 right-0 h-1.5 bg-[#0f2b5c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+          <div class="absolute top-4 right-4 text-slate-300 group-hover:text-[#0f2b5c]/35 font-mono font-black text-4xl select-none transition-colors duration-300">02</div>
+          <div class="bg-[#0f2b5c] text-white group-hover:bg-[#18458c] w-12 h-12 rounded-none flex items-center justify-center mb-6 transition-colors duration-300 border border-[#1b4386]/40 shadow-md">
+            <i data-lucide="lock" class="w-5 h-5 text-white"></i>
           </div>
           <h3 class="font-sans font-black uppercase tracking-wide text-lg text-slate-900 mb-3">Confidencialidad</h3>
-          <p class="text-slate-600 text-sm leading-relaxed">Protección rigurosa de la información financiera y operativa de nuestros clientes.</p>
+          <p class="text-slate-600 leading-relaxed text-sm font-medium">Protegemos la información con absoluta discreción y seguridad.</p>
         </div>
-      </div>
 
-      <div class="text-center mt-12">
-        <span class="font-sans font-black text-slate-800 text-xs tracking-widest uppercase bg-white px-6 py-4 border border-slate-200 shadow-sm inline-block">
-          Valores que transforman, resultados que inspiran
-        </span>
+        <!-- Value 3: Precisión -->
+        <div class="bg-white p-8 rounded-none border-2 border-slate-300 shadow-lg hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 relative group overflow-hidden border-t-4 border-t-[#0f2b5c]">
+          <div class="absolute top-0 left-0 right-0 h-1.5 bg-[#0f2b5c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+          <div class="absolute top-4 right-4 text-slate-300 group-hover:text-[#0f2b5c]/35 font-mono font-black text-4xl select-none transition-colors duration-300">03</div>
+          <div class="bg-[#0f2b5c] text-white group-hover:bg-[#18458c] w-12 h-12 rounded-none flex items-center justify-center mb-6 transition-colors duration-300 border border-[#1b4386]/40 shadow-md">
+            <i data-lucide="trending-up" class="w-5 h-5 text-white"></i>
+          </div>
+          <h3 class="font-sans font-black uppercase tracking-wide text-lg text-slate-900 mb-3">Precisión</h3>
+          <p class="text-slate-600 leading-relaxed text-sm font-medium">Resultados exactos y oportunos para la toma de decisiones clave.</p>
+        </div>
+
+        <!-- Value 4: Compromiso -->
+        <div class="bg-white p-8 rounded-none border-2 border-slate-300 shadow-lg hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 relative group overflow-hidden border-t-4 border-t-[#0f2b5c]">
+          <div class="absolute top-0 left-0 right-0 h-1.5 bg-[#0f2b5c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+          <div class="absolute top-4 right-4 text-slate-300 group-hover:text-[#0f2b5c]/35 font-mono font-black text-4xl select-none transition-colors duration-300">04</div>
+          <div class="bg-[#0f2b5c] text-white group-hover:bg-[#18458c] w-12 h-12 rounded-none flex items-center justify-center mb-6 transition-colors duration-300 border border-[#1b4386]/40 shadow-md">
+            <i data-lucide="heart" class="w-5 h-5 text-white"></i>
+          </div>
+          <h3 class="font-sans font-black uppercase tracking-wide text-lg text-slate-900 mb-3">Compromiso</h3>
+          <p class="text-slate-600 leading-relaxed text-sm font-medium">Asumimos los objetivos de nuestros clientes como si fueran propios.</p>
+        </div>
+
+        <!-- Value 5: Empatía Empresarial -->
+        <div class="bg-white p-8 rounded-none border-2 border-slate-300 shadow-lg hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 relative group overflow-hidden border-t-4 border-t-[#0f2b5c]">
+          <div class="absolute top-0 left-0 right-0 h-1.5 bg-[#0f2b5c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+          <div class="absolute top-4 right-4 text-slate-300 group-hover:text-[#0f2b5c]/35 font-mono font-black text-4xl select-none transition-colors duration-300">05</div>
+          <div class="bg-[#0f2b5c] text-white group-hover:bg-[#18458c] w-12 h-12 rounded-none flex items-center justify-center mb-6 transition-colors duration-300 border border-[#1b4386]/40 shadow-md">
+            <i data-lucide="handshake" class="w-5 h-5 text-white"></i>
+          </div>
+          <h3 class="font-sans font-black uppercase tracking-wide text-lg text-slate-900 mb-3">Empatía Empresarial</h3>
+          <p class="text-slate-600 leading-relaxed text-sm font-medium">Trabajamos al ritmo y entendiendo las necesidades reales de las PYMES.</p>
+        </div>
+
+        <!-- Value 6: Actualización -->
+        <div class="bg-white p-8 rounded-none border-2 border-slate-300 shadow-lg hover:shadow-2xl hover:-translate-y-1.5 transition-all duration-300 relative group overflow-hidden border-t-4 border-t-[#0f2b5c]">
+          <div class="absolute top-0 left-0 right-0 h-1.5 bg-[#0f2b5c] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left"></div>
+          <div class="absolute top-4 right-4 text-slate-300 group-hover:text-[#0f2b5c]/35 font-mono font-black text-4xl select-none transition-colors duration-300">06</div>
+          <div class="bg-[#0f2b5c] text-white group-hover:bg-[#18458c] w-12 h-12 rounded-none flex items-center justify-center mb-6 transition-colors duration-300 border border-[#1b4386]/40 shadow-md">
+            <i data-lucide="refresh-cw" class="w-5 h-5 text-white"></i>
+          </div>
+          <h3 class="font-sans font-black uppercase tracking-wide text-lg text-slate-900 mb-3">Actualización</h3>
+          <p class="text-slate-600 leading-relaxed text-sm font-medium">Adaptación continua a los constantes cambios normativos y tecnológicos.</p>
+        </div>
       </div>
     </div>
   </section>
 
   <!-- SERVICES SECTION -->
-  <section id="servicios" class="py-20 lg:py-28 relative bg-slate-50 border-t border-slate-200">
+  <section id="servicios" class="py-20 lg:py-28 bg-white relative">
+    <!-- Background visual stripes -->
+    <div class="absolute inset-x-0 top-0 h-40 geo-diagonal-stripes-dark opacity-20 pointer-events-none"></div>
+
     <div class="max-w-7xl mx-auto px-6 relative z-10">
       <div class="flex flex-col items-center text-center mb-16">
-        <span class="text-xs font-black uppercase tracking-widest text-blue-700 bg-blue-50 border border-blue-200 px-4 py-2 mb-4 inline-block">
+        <span class="text-xs font-black uppercase tracking-widest text-white bg-[#0f2b5c] border border-[#1b4386]/40 px-4 py-2 rounded-none mb-4 inline-block shadow-sm">
           Nuestros Servicios
         </span>
         <h2 class="font-sans font-black text-3xl md:text-4xl lg:text-5xl tracking-tighter text-slate-900 uppercase">
           Soluciones Integrales
         </h2>
-        <p class="text-slate-600 mt-4 max-w-xl text-sm md:text-base">
-          Ofrecemos un portafolio completo para mantener tu negocio en regla y potenciar su rendimiento financiero.
+        <p class="text-slate-600 mt-4 max-w-xl text-sm md:text-base font-medium">
+          Ofrecemos soporte técnico y consultoría de primer nivel para mantener la salud financiera de tu empresa al día.
         </p>
-        <div class="w-16 h-1 bg-blue-600 mt-4"></div>
+        <div class="w-16 h-1 bg-[#0f2b5c] mt-4"></div>
       </div>
 
-      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-        <!-- Service 1 -->
-        <div class="bg-white p-8 border border-slate-200 border-l-[6px] border-l-blue-600 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between">
+      <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
+        <!-- Service 1: Auditoría -->
+        <div class="bg-white p-8 rounded-none border-2 border-slate-300 border-l-[6px] border-l-[#0f2b5c] shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
           <div>
-            <div class="bg-blue-50 text-blue-600 w-12 h-12 flex items-center justify-center mb-6 border border-blue-100">
-              <i data-lucide="calculator" class="w-5 h-5"></i>
+            <div class="bg-[#0f2b5c] text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 border border-[#1b4386]/40 shadow-md">
+              <i data-lucide="clipboard-list" class="w-5 h-5 text-white"></i>
             </div>
-            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Contabilidad General</h3>
-            <p class="text-slate-600 text-sm leading-relaxed mb-6">Registro de transacciones, estados financieros mensuales, concilación bancaria y libros contables oficiales según la DGI.</p>
+            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Auditoría</h3>
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Revisión completa de estados financieros</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Auditoría Contable y Fiscal estratégica</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Auditoría Forense especializada</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Asesoría integral en controles internos</span>
+              </li>
+            </ul>
           </div>
-          <button onclick="openModal('Contabilidad General')" class="w-full py-3.5 px-4 text-[10px] font-black uppercase tracking-widest text-center text-white bg-blue-600 hover:bg-blue-700 transition-all shadow-md">
+          <button onclick="openModal('Auditoría')" class="w-full py-3.5 px-4 rounded-none text-[10px] font-black uppercase tracking-widest text-center text-white bg-[#0f2b5c] hover:bg-[#18458c] active:bg-[#0f2b5c] transition-all duration-200 shadow-md border border-[#1b4386]/40 cursor-pointer">
             Solicitar cotización
           </button>
         </div>
 
-        <!-- Service 2 -->
-        <div class="bg-white p-8 border border-slate-200 border-l-[6px] border-l-blue-600 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between">
+        <!-- Service 2: Contabilidad -->
+        <div class="bg-white p-8 rounded-none border-2 border-slate-300 border-l-[6px] border-l-[#0f2b5c] shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
           <div>
-            <div class="bg-blue-50 text-blue-600 w-12 h-12 flex items-center justify-center mb-6 border border-blue-100">
-              <i data-lucide="file-check-2" class="w-5 h-5"></i>
+            <div class="bg-[#0f2b5c] text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 border border-[#1b4386]/40 shadow-md">
+              <i data-lucide="calculator" class="w-5 h-5 text-white"></i>
             </div>
-            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Auditoría Financiera</h3>
-            <p class="text-slate-600 text-sm leading-relaxed mb-6">Evaluación independiente de estados financieros, dictámenes de CPA, control interno y prevención de riesgos operativos.</p>
+            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Contabilidad</h3>
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Contabilidad General / Outsourcing</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Implementación de Sistemas Contables</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Elaboración de Estados Financieros</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Declaración Jurada de Renta anual</span>
+              </li>
+            </ul>
           </div>
-          <button onclick="openModal('Auditoría Financiera')" class="w-full py-3.5 px-4 text-[10px] font-black uppercase tracking-widest text-center text-white bg-blue-600 hover:bg-blue-700 transition-all shadow-md">
+          <button onclick="openModal('Contabilidad')" class="w-full py-3.5 px-4 rounded-none text-[10px] font-black uppercase tracking-widest text-center text-white bg-[#0f2b5c] hover:bg-[#18458c] active:bg-[#0f2b5c] transition-all duration-200 shadow-md border border-[#1b4386]/40 cursor-pointer">
             Solicitar cotización
           </button>
         </div>
 
-        <!-- Service 3 -->
-        <div class="bg-white p-8 border border-slate-200 border-l-[6px] border-l-blue-600 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between">
+        <!-- Service 3: Asesoría Financiera -->
+        <div class="bg-white p-8 rounded-none border-2 border-slate-300 border-l-[6px] border-l-[#0f2b5c] shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
           <div>
-            <div class="bg-blue-50 text-blue-600 w-12 h-12 flex items-center justify-center mb-6 border border-blue-100">
-              <i data-lucide="trending-up" class="w-5 h-5"></i>
+            <div class="bg-[#0f2b5c] text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 border border-[#1b4386]/40 shadow-md">
+              <i data-lucide="pie-chart" class="w-5 h-5 text-white"></i>
             </div>
-            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Consultoría Fiscal</h3>
-            <p class="text-slate-600 text-sm leading-relaxed mb-6">Planeación tributaria, declaración de ISR, ITBMS, planillas SIPE de la C.S.S. y atención de requerimientos ante la DGI.</p>
+            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Asesoría Financiera</h3>
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Asesoría estratégica y financiera para PYMES</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Trámites Bancarios y financiamientos</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Análisis Financiero profundo</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Capacitación y planificación de presupuestos</span>
+              </li>
+            </ul>
           </div>
-          <button onclick="openModal('Consultoría Fiscal')" class="w-full py-3.5 px-4 text-[10px] font-black uppercase tracking-widest text-center text-white bg-blue-600 hover:bg-blue-700 transition-all shadow-md">
+          <button onclick="openModal('Asesoría Financiera')" class="w-full py-3.5 px-4 rounded-none text-[10px] font-black uppercase tracking-widest text-center text-white bg-[#0f2b5c] hover:bg-[#18458c] active:bg-[#0f2b5c] transition-all duration-200 shadow-md border border-[#1b4386]/40 cursor-pointer">
             Solicitar cotización
           </button>
         </div>
 
-        <!-- Service 4 -->
-        <div class="bg-white p-8 border border-slate-200 border-l-[6px] border-l-blue-600 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between">
+        <!-- Service 4: Trámites Legales -->
+        <div class="bg-white p-8 rounded-none border-2 border-slate-300 border-l-[6px] border-l-[#0f2b5c] shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
           <div>
-            <div class="bg-blue-50 text-blue-600 w-12 h-12 flex items-center justify-center mb-6 border border-blue-100">
-              <i data-lucide="scale" class="w-5 h-5"></i>
+            <div class="bg-[#0f2b5c] text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 border border-[#1b4386]/40 shadow-md">
+              <i data-lucide="gavel" class="w-5 h-5 text-white"></i>
             </div>
-            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Asesoría Legal Corporativa</h3>
-            <p class="text-slate-600 text-sm leading-relaxed mb-6">Constitución de Sociedades Anónimas, aviso de operación, contratos comerciales, derecho laboral y trámites regulatorios.</p>
+            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Trámites Legales</h3>
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Pagos de impuestos / Paz y Salvo</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Elaboración y revisión de contratos comerciales</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Registro oficial de marcas y patentes</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Permisos de operación y licencias municipales</span>
+              </li>
+            </ul>
           </div>
-          <button onclick="openModal('Asesoría Legal Corporativa')" class="w-full py-3.5 px-4 text-[10px] font-black uppercase tracking-widest text-center text-white bg-blue-600 hover:bg-blue-700 transition-all shadow-md">
+          <button onclick="openModal('Trámites Legales')" class="w-full py-3.5 px-4 rounded-none text-[10px] font-black uppercase tracking-widest text-center text-white bg-[#0f2b5c] hover:bg-[#18458c] active:bg-[#0f2b5c] transition-all duration-200 shadow-md border border-[#1b4386]/40 cursor-pointer">
             Solicitar cotización
           </button>
         </div>
 
-        <!-- Service 5 -->
-        <div class="bg-white p-8 border border-slate-200 border-l-[6px] border-l-blue-600 shadow-md hover:shadow-xl hover:-translate-y-1 transition-all flex flex-col justify-between">
+        <!-- Service 5: Planillas / Nómina -->
+        <div class="bg-white p-8 rounded-none border-2 border-slate-300 border-l-[6px] border-l-[#0f2b5c] shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
           <div>
-            <div class="bg-blue-50 text-blue-600 w-12 h-12 flex items-center justify-center mb-6 border border-blue-100">
-              <i data-lucide="building-2" class="w-5 h-5"></i>
+            <div class="bg-[#0f2b5c] text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 border border-[#1b4386]/40 shadow-md">
+              <i data-lucide="file-spreadsheet" class="w-5 h-5 text-white"></i>
             </div>
-            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Gestión de Planillas</h3>
-            <p class="text-slate-600 text-sm leading-relaxed mb-6">Cálculo de salarios, prestaciones laborales, décimo tercer mes, liquidaciones y trámites del sistema SIPE de la CSS.</p>
+            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Planillas / Nómina</h3>
+            <ul class="space-y-3 mb-8">
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Gestión y trámites en el portal SIPE</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Proceso integral de nóminas periódicas</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Cálculo y pago de cuotas de la CSS</span>
+              </li>
+              <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
+                <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
+                <span>Declaración de planillas de manera oportuna</span>
+              </li>
+            </ul>
           </div>
-          <button onclick="openModal('Gestión de Planillas')" class="w-full py-3.5 px-4 text-[10px] font-black uppercase tracking-widest text-center text-white bg-blue-600 hover:bg-blue-700 transition-all shadow-md">
+          <button onclick="openModal('Planillas / Nómina')" class="w-full py-3.5 px-4 rounded-none text-[10px] font-black uppercase tracking-widest text-center text-white bg-[#0f2b5c] hover:bg-[#18458c] active:bg-[#0f2b5c] transition-all duration-200 shadow-md border border-[#1b4386]/40 cursor-pointer">
             Solicitar cotización
           </button>
         </div>
 
         <!-- Custom CTA Box -->
-        <div class="bg-gradient-to-br from-blue-50 via-white to-blue-50/60 p-8 border-2 border-blue-200 border-t-[6px] border-t-blue-600 text-slate-900 flex flex-col justify-between relative overflow-hidden shadow-md">
+        <div class="bg-[#0f2b5c] text-white p-8 rounded-none shadow-2xl border-2 border-[#091b3b] border-t-[6px] border-t-slate-900 flex flex-col justify-between relative overflow-hidden">
+          <div class="absolute inset-0 geo-diagonal-stripes opacity-10 pointer-events-none"></div>
           <div class="relative z-10">
-            <div class="bg-blue-600 text-white w-12 h-12 flex items-center justify-center mb-6 shadow-md shadow-blue-600/20">
-              <i data-lucide="sparkles" class="w-5 h-5"></i>
+            <div class="bg-white/15 text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 shadow-md border border-white/20">
+              <i data-lucide="sparkles" class="w-5 h-5 text-white"></i>
             </div>
-            <h3 class="font-sans font-black uppercase tracking-tight text-xl text-slate-900 mb-4">
+            <h3 class="font-sans font-black uppercase tracking-tight text-xl text-white mb-4">
               ¿Necesitas una solución personalizada?
             </h3>
-            <p class="text-slate-600 text-sm leading-relaxed mb-6">
-              Cada empresa tiene un flujo y requerimiento único. Diseñamos un plan de acompañamiento contable, fiscal y legal a la medida de tu presupuesto.
+            <p class="text-slate-200 text-sm leading-relaxed mb-6 font-medium">
+              Cada empresa tiene un flujo y requerimiento único. Diseñamos un plan de acompañamiento contable, fiscal y financiero a la medida de tu presupuesto y metas.
             </p>
           </div>
-          <a href="#contacto" class="relative z-10 w-full py-3.5 px-4 text-[10px] font-black uppercase tracking-widest text-center text-white bg-blue-600 hover:bg-blue-700 transition-all shadow-md">
+          <a href="#contacto" class="relative z-10 w-full py-3.5 px-4 rounded-none text-[10px] font-black uppercase tracking-widest text-center text-[#0f2b5c] bg-white hover:bg-slate-100 hover:scale-[1.02] active:scale-[0.98] transition-all duration-200 shadow-lg">
             Contáctanos ahora
           </a>
         </div>
@@ -461,20 +612,25 @@
     </div>
   </section>
 
-  <!-- NEWSLETTER -->
-  <section class="py-16 bg-white border-t border-slate-200">
-    <div class="max-w-4xl mx-auto px-6">
-      <div class="bg-white border-2 border-slate-200 shadow-xl p-8 md:p-12 text-center border-t-8 border-t-blue-600">
-        <div class="inline-flex bg-blue-600 text-white w-14 h-14 items-center justify-center mb-6 shadow-md border border-blue-700">
-          <i data-lucide="newspaper" class="w-6 h-6"></i>
+  <!-- NEWSLETTER SECTION -->
+  <section id="boletin" class="py-20 bg-[#f4f7fc] relative overflow-hidden">
+    <!-- Background visual stripes -->
+    <div class="absolute inset-0 geo-diagonal-stripes-dark opacity-35 pointer-events-none"></div>
+
+    <div class="max-w-4xl mx-auto px-6 relative z-10">
+      <div class="bg-white rounded-none border-2 border-slate-300 shadow-2xl p-8 md:p-12 text-center border-t-8 border-t-[#0f2b5c]">
+        <div class="inline-flex bg-[#0f2b5c] text-white w-14 h-14 rounded-none items-center justify-center mb-6 shadow-md border border-[#1b4386]/40">
+          <i data-lucide="newspaper" class="w-6 h-6 text-white"></i>
         </div>
-        <h2 class="font-sans font-black tracking-widest text-xs text-blue-700 mb-2 uppercase">
-          BOLETÍN INFORMATIVO
-        </h2>
-        <p class="font-sans font-black text-xl md:text-2xl tracking-tight text-slate-900 mb-2 uppercase">
+        <div>
+          <span class="font-sans font-black tracking-widest text-xs text-white bg-[#0f2b5c] border border-[#1b4386]/40 px-4 py-1.5 rounded-none mb-3 inline-block shadow-xs uppercase">
+            BOLETÍN INFORMATIVO
+          </span>
+        </div>
+        <h2 class="font-sans font-black text-xl md:text-2xl tracking-tight text-slate-900 mb-2 uppercase">
           Próximamente novedades fiscales y contables
-        </p>
-        <p class="text-slate-600 max-w-xl mx-auto mb-8 text-sm md:text-base leading-relaxed">
+        </h2>
+        <p class="text-slate-600 max-w-xl mx-auto mb-8 text-sm md:text-base leading-relaxed font-medium">
           Suscríbete de forma gratuita para recibir de primera mano alertas, normativas vigentes y reformas fiscales en la República de Panamá.
         </p>
 
@@ -484,9 +640,9 @@
             id="newsletter-email"
             required
             placeholder="Tu correo electrónico..."
-            class="w-full px-4 py-3.5 text-sm bg-slate-50 border border-slate-300 focus:outline-none focus:border-blue-600 text-slate-800 placeholder:text-slate-400"
+            class="w-full px-4 py-3.5 text-sm font-semibold bg-white border-2 border-slate-300 focus:outline-none focus:border-[#0f2b5c] text-slate-900 placeholder:text-slate-400"
           >
-          <button type="submit" class="px-6 py-3.5 bg-blue-600 hover:bg-blue-700 text-white font-black text-xs tracking-widest uppercase transition-all shadow-md flex items-center justify-center gap-2 shrink-0">
+          <button type="submit" class="px-6 py-3.5 rounded-none bg-[#0f2b5c] hover:bg-[#18458c] active:bg-[#0f2b5c] text-white font-black text-xs tracking-widest uppercase transition-all duration-200 shadow-md flex items-center justify-center gap-2 cursor-pointer shrink-0 border border-[#1b4386]/40">
             Suscribirme
             <i data-lucide="send" class="w-3.5 h-3.5"></i>
           </button>
@@ -497,124 +653,113 @@
   </section>
 
   <!-- CONTACT SECTION -->
-  <section id="contacto" class="py-20 lg:py-28 relative bg-slate-100">
+  <section id="contacto" class="py-20 lg:py-28 bg-[#f4f7fc] relative">
+    <!-- Background diagonal lines -->
+    <div class="absolute inset-0 geo-diagonal-stripes-dark opacity-35 pointer-events-none"></div>
+
     <div class="max-w-7xl mx-auto px-6 relative z-10">
-      <div class="bg-white border-2 border-slate-200 shadow-2xl overflow-hidden grid lg:grid-cols-12">
+      <div class="bg-white rounded-none border-2 border-slate-300 shadow-2xl overflow-hidden grid lg:grid-cols-12">
         <!-- Contact Info Column -->
-        <div class="lg:col-span-5 bg-blue-50/80 text-slate-900 p-8 md:p-12 lg:p-16 relative flex flex-col justify-between border-b-8 lg:border-b-0 lg:border-r-8 border-blue-600">
-          <div>
-            <span class="text-xs font-black uppercase tracking-widest text-blue-700 bg-white/80 border border-blue-200 px-3.5 py-1.5 inline-block mb-6">
-              Contáctanos
+        <div class="lg:col-span-5 bg-[#0f2b5c] text-white p-8 md:p-12 lg:p-16 relative flex flex-col justify-between border-b-8 lg:border-b-0 lg:border-r-8 border-[#091b3b]">
+          <!-- Embedded stripes -->
+          <div class="absolute inset-0 geo-diagonal-stripes opacity-15 pointer-events-none"></div>
+
+          <div class="relative z-10">
+            <span class="text-xs font-black uppercase tracking-widest text-sky-200 bg-white/10 px-3 py-1 border border-white/20 inline-block mb-4 shadow-xs">
+              Canales Directos
             </span>
-            <h2 class="font-sans font-black text-3xl md:text-4xl tracking-tight text-slate-900 uppercase mb-6">
-              Hablemos de tu negocio
+            <h2 class="font-sans font-black text-3xl md:text-4xl tracking-tighter text-white uppercase mb-6">
+              Contáctanos
             </h2>
-            <p class="text-slate-600 text-sm md:text-base leading-relaxed mb-10">
-              Estamos a tu disposición para atender tus consultas contables, tributarias o legales con total confidencialidad.
+            <p class="text-slate-200 text-sm md:text-base leading-relaxed mb-8 max-w-sm font-medium">
+              ¿Tienes alguna consulta financiera, fiscal, auditoría o requerimiento corporativo? Escríbenos directamente o visítanos. Con gusto te daremos una respuesta oportuna.
             </p>
 
             <div class="space-y-6">
-              <!-- Teléfonos -->
+              <!-- Ubicación -->
               <div class="flex items-start gap-4">
-                <div class="bg-blue-600 text-white p-3 border border-blue-700 shrink-0 shadow-xs">
-                  <i data-lucide="phone" class="w-5 h-5"></i>
+                <div class="bg-white/15 text-white p-3 border border-white/25 shrink-0 shadow-md">
+                  <i data-lucide="map-pin" class="w-5 h-5 text-white"></i>
                 </div>
                 <div>
-                  <p class="text-[10px] font-mono font-bold uppercase tracking-widest text-blue-700">Teléfonos Principales</p>
-                  <a href="tel:+50766782482" class="text-slate-900 font-bold text-sm hover:text-blue-600 transition-colors block mt-0.5">+507 6678-2482</a>
-                  <a href="tel:+50766710432" class="text-slate-900 font-bold text-sm hover:text-blue-600 transition-colors block">+507 6671-0432</a>
+                  <p class="text-[10px] font-mono font-bold uppercase tracking-widest text-sky-200">Ubicación</p>
+                  <p class="text-white font-black text-sm md:text-base mt-0.5">Ciudad de Panamá, República de Panamá</p>
                 </div>
               </div>
 
-              <!-- WhatsApp -->
+              <!-- Teléfono -->
               <div class="flex items-start gap-4">
-                <div class="bg-emerald-600 text-white p-3 border border-emerald-700 shrink-0 shadow-xs">
-                  <i data-lucide="message-square" class="w-5 h-5"></i>
+                <div class="bg-white/15 text-white p-3 border border-white/25 shrink-0 shadow-md">
+                  <i data-lucide="phone" class="w-5 h-5 text-white"></i>
                 </div>
                 <div>
-                  <p class="text-[10px] font-mono font-bold uppercase tracking-widest text-emerald-700">WhatsApp Directo</p>
-                  <a href="https://wa.me/50766782482" target="_blank" rel="noopener noreferrer" class="text-slate-900 font-bold text-sm hover:text-emerald-700 transition-colors block mt-0.5">
-                    +507 6678-2482
-                  </a>
-                  <a href="https://wa.me/50766710432" target="_blank" rel="noopener noreferrer" class="text-slate-900 font-bold text-sm hover:text-emerald-700 transition-colors block">
-                    +507 6671-0432
-                  </a>
+                  <p class="text-[10px] font-mono font-bold uppercase tracking-widest text-sky-200">Llámanos</p>
+                  <a href="tel:+50760000000" class="text-white hover:text-sky-200 font-black transition-colors text-sm md:text-base block mt-0.5">+507 6000-0000</a>
                 </div>
               </div>
 
               <!-- Correo -->
               <div class="flex items-start gap-4">
-                <div class="bg-blue-600 text-white p-3 border border-blue-700 shrink-0 shadow-xs">
-                  <i data-lucide="mail" class="w-5 h-5"></i>
+                <div class="bg-white/15 text-white p-3 border border-white/25 shrink-0 shadow-md">
+                  <i data-lucide="mail" class="w-5 h-5 text-white"></i>
                 </div>
                 <div>
-                  <p class="text-[10px] font-mono font-bold uppercase tracking-widest text-blue-700">Correo Electrónico</p>
-                  <a href="mailto:consultoresmv20@gmail.com" class="text-slate-900 font-bold text-sm hover:text-blue-600 transition-colors block mt-0.5">
-                    consultoresmv20@gmail.com
+                  <p class="text-[10px] font-mono font-bold uppercase tracking-widest text-sky-200">Escríbenos</p>
+                  <a href="mailto:contacto@vvsoluciones.com" class="text-white hover:text-sky-200 font-black transition-colors text-sm md:text-base block mt-0.5">
+                    contacto@vvsoluciones.com
                   </a>
-                </div>
-              </div>
-
-              <!-- Ubicación -->
-              <div class="flex items-start gap-4">
-                <div class="bg-blue-600 text-white p-3 border border-blue-700 shrink-0 shadow-xs">
-                  <i data-lucide="map-pin" class="w-5 h-5"></i>
-                </div>
-                <div>
-                  <p class="text-[10px] font-mono font-bold uppercase tracking-widest text-blue-700">Ubicación</p>
-                  <p class="text-slate-900 font-bold text-sm mt-0.5">Ciudad de Panamá, República de Panamá</p>
                 </div>
               </div>
 
               <!-- Horario -->
               <div class="flex items-start gap-4">
-                <div class="bg-blue-600 text-white p-3 border border-blue-700 shrink-0 shadow-xs">
-                  <i data-lucide="clock" class="w-5 h-5"></i>
+                <div class="bg-white/15 text-white p-3 border border-white/25 shrink-0 shadow-md">
+                  <i data-lucide="clock" class="w-5 h-5 text-white"></i>
                 </div>
                 <div>
-                  <p class="text-[10px] font-mono font-bold uppercase tracking-widest text-blue-700">Horario de Atención</p>
-                  <p class="text-slate-900 font-bold text-sm mt-0.5">Lunes a Viernes: 8:00 a.m. - 5:00 p.m.</p>
+                  <p class="text-[10px] font-mono font-bold uppercase tracking-widest text-sky-200">Horario</p>
+                  <p class="text-white font-black text-sm md:text-base mt-0.5">Lunes a Viernes: 9:00 AM - 6:00 PM</p>
                 </div>
               </div>
             </div>
           </div>
 
-          <div class="mt-12 pt-6 border-t border-slate-200 flex items-center justify-between text-[10px] font-mono tracking-widest text-slate-500">
-            <span>M&V CONSULTING PANAMÁ</span>
-            <span class="text-blue-700 font-bold">RESPUESTA RÁPIDA</span>
+          <div class="mt-12 pt-6 border-t border-white/20 text-[10px] text-slate-300 font-mono font-bold tracking-wider relative z-10 flex items-center justify-between">
+            <span>VV SOLUCIONES FINANCIERAS</span>
+            <span>PANAMÁ 2026</span>
           </div>
         </div>
 
         <!-- Contact Form Column -->
-        <div class="lg:col-span-7 p-8 md:p-12 lg:p-16">
-          <h3 class="font-sans font-black uppercase tracking-tight text-xl text-slate-900 mb-2">
+        <div class="lg:col-span-7 p-8 md:p-12 lg:p-16 bg-white">
+          <h3 class="font-sans font-black uppercase tracking-tight text-2xl text-slate-900 mb-2">
             Envíanos un mensaje
           </h3>
-          <p class="text-slate-500 text-sm mb-8">
+          <p class="text-slate-600 text-sm md:text-base mb-8 font-medium">
             Completa el formulario y un especialista de nuestra firma se pondrá en contacto contigo a la brevedad.
           </p>
 
           <form id="contact-form" onsubmit="handleContactSubmit(event)" class="space-y-5">
             <div>
-              <label class="block text-xs font-black uppercase tracking-wider text-slate-700 mb-2">Nombre Completo *</label>
-              <input type="text" id="contact-name" required placeholder="Ej. Juan Pérez" class="w-full px-4 py-3 bg-slate-50 border border-slate-300 text-sm text-slate-900 focus:outline-none focus:border-blue-600">
+              <label class="block text-xs font-black uppercase tracking-wider text-slate-900 mb-2">Nombre Completo *</label>
+              <input type="text" id="contact-name" required placeholder="Ej. Juan Pérez" class="w-full px-4 py-3 bg-white border-2 border-slate-300 text-sm font-semibold text-slate-900 focus:outline-none focus:border-[#0f2b5c] focus:ring-2 focus:ring-[#0f2b5c]/20">
             </div>
 
             <div class="grid sm:grid-cols-2 gap-5">
               <div>
-                <label class="block text-xs font-black uppercase tracking-wider text-slate-700 mb-2">Correo Electrónico *</label>
-                <input type="email" id="contact-email" required placeholder="tu@empresa.com" class="w-full px-4 py-3 bg-slate-50 border border-slate-300 text-sm text-slate-900 focus:outline-none focus:border-blue-600">
+                <label class="block text-xs font-black uppercase tracking-wider text-slate-900 mb-2">Correo Electrónico *</label>
+                <input type="email" id="contact-email" required placeholder="tu@empresa.com" class="w-full px-4 py-3 bg-white border-2 border-slate-300 text-sm font-semibold text-slate-900 focus:outline-none focus:border-[#0f2b5c] focus:ring-2 focus:ring-[#0f2b5c]/20">
               </div>
 
               <div>
-                <label class="block text-xs font-black uppercase tracking-wider text-slate-700 mb-2">Teléfono / WhatsApp *</label>
-                <input type="tel" id="contact-phone" required placeholder="+507 6000-0000" class="w-full px-4 py-3 bg-slate-50 border border-slate-300 text-sm text-slate-900 focus:outline-none focus:border-blue-600">
+                <label class="block text-xs font-black uppercase tracking-wider text-slate-900 mb-2">Teléfono / WhatsApp *</label>
+                <input type="tel" id="contact-phone" required placeholder="+507 6000-0000" class="w-full px-4 py-3 bg-white border-2 border-slate-300 text-sm font-semibold text-slate-900 focus:outline-none focus:border-[#0f2b5c] focus:ring-2 focus:ring-[#0f2b5c]/20">
               </div>
             </div>
 
             <div>
-              <label class="block text-xs font-black uppercase tracking-wider text-slate-700 mb-2">Servicio de Interés</label>
-              <select id="contact-service" class="w-full px-4 py-3 bg-slate-50 border border-slate-300 text-sm text-slate-900 focus:outline-none focus:border-blue-600">
+              <label class="block text-xs font-black uppercase tracking-wider text-slate-900 mb-2">Servicio de Interés</label>
+              <select id="contact-service" class="w-full px-4 py-3 bg-white border-2 border-slate-300 text-sm font-semibold text-slate-900 focus:outline-none focus:border-[#0f2b5c] focus:ring-2 focus:ring-[#0f2b5c]/20">
                 <option value="Consulta General">Consulta General</option>
                 <option value="Contabilidad General">Contabilidad General</option>
                 <option value="Auditoría Financiera">Auditoría Financiera</option>
@@ -625,11 +770,11 @@
             </div>
 
             <div>
-              <label class="block text-xs font-black uppercase tracking-wider text-slate-700 mb-2">Mensaje o Detalle de la Consulta *</label>
-              <textarea id="contact-message" rows="4" required placeholder="Describa brevemente lo que necesita su empresa..." class="w-full px-4 py-3 bg-slate-50 border border-slate-300 text-sm text-slate-900 focus:outline-none focus:border-blue-600"></textarea>
+              <label class="block text-xs font-black uppercase tracking-wider text-slate-900 mb-2">Mensaje o Detalle de la Consulta *</label>
+              <textarea id="contact-message" rows="4" required placeholder="Describa brevemente lo que necesita su empresa..." class="w-full px-4 py-3 bg-white border-2 border-slate-300 text-sm font-semibold text-slate-900 focus:outline-none focus:border-[#0f2b5c] focus:ring-2 focus:ring-[#0f2b5c]/20"></textarea>
             </div>
 
-            <button type="submit" class="w-full py-4 px-6 bg-blue-600 hover:bg-blue-700 text-white font-black text-xs tracking-widest uppercase transition-all shadow-md flex items-center justify-center gap-2">
+            <button type="submit" class="w-full py-4 px-6 bg-[#0f2b5c] hover:bg-[#18458c] active:bg-[#0f2b5c] text-white font-black text-xs tracking-widest uppercase transition-all shadow-md flex items-center justify-center gap-2 border border-[#1b4386]/40 cursor-pointer">
               Enviar mensaje
               <i data-lucide="send" class="w-3.5 h-3.5"></i>
             </button>
@@ -642,96 +787,104 @@
   </section>
 
   <!-- FOOTER -->
-  <footer class="bg-gradient-to-b from-slate-900 via-[#0a1628] to-[#060e1a] text-slate-300 py-16 border-t-4 border-blue-600 relative overflow-hidden">
+  <footer class="bg-gradient-to-b from-slate-950 via-[#071324] to-[#040a14] text-slate-300 py-16 border-t-4 border-[#0f2b5c] relative overflow-hidden">
     <!-- Background visual stripes -->
     <div class="absolute inset-0 geo-diagonal-stripes opacity-10 pointer-events-none"></div>
 
     <div class="max-w-7xl mx-auto px-6 relative z-10 flex flex-col items-center text-center">
       <!-- Brand -->
       <a href="#inicio" class="flex items-center gap-4 group mb-8">
-        <div class="w-10 h-10 bg-blue-600 flex items-center justify-center rounded-none rotate-45 group-hover:scale-105 transition-transform duration-300 shadow-lg shadow-blue-900/40 border border-blue-400/30">
+        <div class="w-10 h-10 bg-[#0f2b5c] flex items-center justify-center rounded-none rotate-45 group-hover:scale-105 transition-transform duration-300 shadow-lg shadow-[#0f2b5c]/40 border border-slate-400/30">
           <div class="w-5 h-5 border border-white -rotate-45 flex items-center justify-center">
             <i data-lucide="shield" class="w-3.5 h-3.5 text-white fill-current"></i>
           </div>
         </div>
         <div class="text-left">
           <span class="font-sans font-black text-xl tracking-tighter text-white block">
-            M&V <span class="text-blue-400 font-light">Consulting</span>
+            VV <span class="text-slate-300 font-light">Soluciones Financieras</span>
           </span>
-          <span class="font-mono font-bold text-[9px] uppercase tracking-widest text-blue-300/80 block -mt-1">
-            Contabilidad & Auditoría
+          <span class="font-mono font-bold text-[9px] uppercase tracking-widest text-slate-400 block -mt-1">
+            Asesoría & Finanzas
           </span>
         </div>
       </a>
 
       <!-- Links -->
       <div class="flex flex-wrap justify-center gap-6 md:gap-10 mb-8 text-xs font-bold uppercase tracking-widest text-slate-300">
-        <a href="#inicio" class="hover:text-blue-400 transition-colors py-1 border-b border-transparent hover:border-blue-400">Inicio</a>
-        <a href="#nosotros" class="hover:text-blue-400 transition-colors py-1 border-b border-transparent hover:border-blue-400">Nosotros</a>
-        <a href="#mision-vision" class="hover:text-blue-400 transition-colors py-1 border-b border-transparent hover:border-blue-400">Misión & Visión</a>
-        <a href="#valores" class="hover:text-blue-400 transition-colors py-1 border-b border-transparent hover:border-blue-400">Valores</a>
-        <a href="#servicios" class="hover:text-blue-400 transition-colors py-1 border-b border-transparent hover:border-blue-400">Servicios</a>
-        <a href="#contacto" class="hover:text-blue-400 transition-colors py-1 border-b border-transparent hover:border-blue-400">Contacto</a>
+        <a href="#inicio" class="hover:text-white transition-colors py-1 border-b border-transparent hover:border-slate-300">Inicio</a>
+        <a href="#nosotros" class="hover:text-white transition-colors py-1 border-b border-transparent hover:border-slate-300">Nosotros</a>
+        <a href="#mision-vision" class="hover:text-white transition-colors py-1 border-b border-transparent hover:border-slate-300">Misión & Visión</a>
+        <a href="#valores" class="hover:text-white transition-colors py-1 border-b border-transparent hover:border-slate-300">Valores</a>
+        <a href="#servicios" class="hover:text-white transition-colors py-1 border-b border-transparent hover:border-slate-300">Servicios</a>
+        <a href="#contacto" class="hover:text-white transition-colors py-1 border-b border-transparent hover:border-slate-300">Contacto</a>
       </div>
 
       <!-- Line -->
-      <div class="w-20 h-[2px] bg-gradient-to-r from-transparent via-blue-500 to-transparent mb-8"></div>
+      <div class="w-20 h-[2px] bg-gradient-to-r from-transparent via-[#0f2b5c] to-transparent mb-8"></div>
 
       <!-- Copy & Slogan -->
       <p class="text-sm font-semibold max-w-xl leading-relaxed text-slate-200">
-        © 2026 M&V Consulting. Todos los derechos reservados.
+        © 2026 VV Soluciones Financieras. Todos los derechos reservados.
       </p>
       <p class="text-xs text-slate-400 mt-2 max-w-xl leading-relaxed">
-        Contabilidad, Auditoría, Consultoría Fiscal y Asesoría Legal Corporativa · Ciudad de Panamá, República de Panamá.
+        Consultoría Financiera, Contabilidad, Auditoría y Asesoría Fiscal Corporativa · Ciudad de Panamá, República de Panamá.
       </p>
-      <div class="mt-6 bg-blue-950/80 border border-blue-800/60 px-8 py-3.5 shadow-xl shadow-black/30 backdrop-blur-xs">
-        <p class="font-serif italic text-blue-300 text-xs md:text-sm tracking-wide">
-          "Construyendo puentes financieros para el éxito de tu empresa"
-        </p>
-      </div>
+
     </div>
   </footer>
 
   <!-- MODAL / DIALOG -->
   <div id="modal-overlay" class="fixed inset-0 z-50 bg-slate-950/70 backdrop-blur-xs flex items-center justify-center p-4 hidden">
-    <div class="bg-white max-w-md w-full p-8 shadow-2xl relative border-2 border-slate-300 text-center border-t-8 border-t-blue-600">
+    <div class="bg-white max-w-md w-full p-8 shadow-2xl relative border-2 border-slate-300 text-center border-t-8 border-t-[#0f2b5c]">
       <button onclick="closeModal()" class="absolute top-5 right-5 p-2 text-slate-400 hover:text-slate-900 hover:bg-slate-100 transition-colors">
         <i data-lucide="x" class="w-5 h-5"></i>
       </button>
 
-      <div class="inline-flex items-center justify-center bg-blue-600 text-white w-12 h-12 mb-4 border border-blue-700 shadow-md">
-        <i data-lucide="mail" class="w-5 h-5"></i>
+      <div class="inline-flex items-center justify-center bg-[#0f2b5c] text-white w-12 h-12 mb-4 border border-[#1b4386]/40 shadow-md">
+        <i data-lucide="mail" class="w-5 h-5 text-white"></i>
       </div>
 
       <h3 class="font-sans font-black uppercase tracking-tight text-xl text-slate-900">
         Solicitar Cotización
       </h3>
 
-      <p id="modal-service-tag" class="text-blue-900 font-mono font-black text-xs tracking-wider uppercase mt-3 px-4 py-1.5 bg-blue-50 inline-block border border-blue-200">
+      <p id="modal-service-tag" class="text-white bg-[#0f2b5c] font-mono font-black text-xs tracking-wider uppercase mt-3 px-4 py-2 inline-block rounded-none border border-[#1b4386]/40 shadow-sm">
         Servicio Seleccionado
       </p>
 
-      <p class="text-slate-600 text-sm mt-4 mb-6 leading-relaxed">
+      <p class="text-slate-600 text-sm mt-4 mb-6 leading-relaxed font-medium">
         Contáctanos directamente vía correo o WhatsApp para enviarte una cotización personalizada.
       </p>
 
       <div class="space-y-3">
-        <a id="modal-email-btn" href="mailto:consultoresmv20@gmail.com" class="w-full py-4 px-6 bg-blue-600 hover:bg-blue-700 text-white font-black text-xs tracking-widest uppercase flex items-center justify-center gap-3 transition-all shadow-md">
+        <a id="modal-email-btn" href="mailto:contacto@vvsoluciones.com" class="w-full py-4 px-6 bg-[#0f2b5c] hover:bg-[#18458c] active:bg-[#0f2b5c] text-white font-black text-xs tracking-widest uppercase flex items-center justify-center gap-3 transition-all shadow-md border border-[#1b4386]/40">
           <i data-lucide="mail" class="w-4 h-4"></i>
           Vía Correo Electrónico
         </a>
 
-        <a id="modal-whatsapp-btn" href="https://wa.me/50766782482" target="_blank" rel="noopener noreferrer" class="w-full py-4 px-6 bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs tracking-widest uppercase flex items-center justify-center gap-3 transition-all shadow-md">
+        <a id="modal-whatsapp-btn" href="https://wa.me/50760000000" target="_blank" rel="noopener noreferrer" class="w-full py-4 px-6 bg-emerald-600 hover:bg-emerald-700 text-white font-black text-xs tracking-widest uppercase flex items-center justify-center gap-3 transition-all shadow-md">
           <i data-lucide="message-square" class="w-4 h-4"></i>
           Vía WhatsApp Directo
         </a>
       </div>
 
-      <button onclick="closeModal()" class="mt-6 text-xs font-black text-slate-400 hover:text-slate-900 uppercase tracking-widest transition-colors">
+      <button onclick="closeModal()" class="mt-6 text-xs font-black text-slate-400 hover:text-slate-900 uppercase tracking-widest transition-colors cursor-pointer">
         Cerrar Ventana
       </button>
     </div>
   </div>
+
+  <!-- FLOATING WHATSAPP BUTTON -->
+  <a 
+    href="https://wa.me/50760000000?text=Hola%2C%20me%20interesa%20recibir%20informaci%C3%B3n%20sobre%20sus%20servicios%20de%20consultor%C3%ADa."
+    target="_blank"
+    rel="noreferrer"
+    class="fixed bottom-6 right-6 z-40 bg-[#25D366] text-white px-5 py-3.5 rounded-full flex items-center gap-2 font-bold shadow-lg shadow-[#25D366]/20 hover:scale-105 active:scale-95 transition-all duration-200 cursor-pointer"
+    title="Contáctanos por WhatsApp"
+  >
+    <i data-lucide="message-square" class="w-5 h-5 fill-current shrink-0"></i>
+    <span class="hidden sm:inline text-sm">WhatsApp</span>
+  </a>
 
   <!-- Custom JavaScript -->
   <script src="script.js"></script>
