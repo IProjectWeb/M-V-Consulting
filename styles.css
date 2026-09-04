@@ -55,3 +55,13 @@ html {
 .animate-fade-in {
   animation: fadeIn 0.4s ease-out forwards;
 }
+/* Mejora contraste en tarjeta del boletín */
+#boletin .bg-white {
+  border-color: #b0c8e0 !important;
+  box-shadow: 0 16px 48px rgba(15, 43, 92, 0.15) !important;
+}
+
+/* Borde inferior en servicios para separación */
+#servicios {
+  border-bottom: 2px solid #b8cce0;
+}

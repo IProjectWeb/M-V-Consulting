@@ -1,0 +1,279 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 540" width="100%" height="100%">
+  <defs>
+    <!-- Front Face Metallic Gradients with Brushed Blue Steel sheen -->
+    <linearGradient id="frontMetalV1" x1="15%" y1="0%" x2="85%" y2="100%">
+      <stop offset="0%" stop-color="#589ad9" />
+      <stop offset="18%" stop-color="#4084c4" />
+      <stop offset="45%" stop-color="#2a65a2" />
+      <stop offset="75%" stop-color="#1b497b" />
+      <stop offset="100%" stop-color="#12355e" />
+    </linearGradient>
+
+    <linearGradient id="frontMetalV2" x1="25%" y1="0%" x2="75%" y2="100%">
+      <stop offset="0%" stop-color="#6ba9e7" />
+      <stop offset="22%" stop-color="#498dce" />
+      <stop offset="50%" stop-color="#2d6ea9" />
+      <stop offset="80%" stop-color="#1e4e83" />
+      <stop offset="100%" stop-color="#133863" />
+    </linearGradient>
+
+    <!-- Head 3D Sphere/Cylinder Cap Gradient -->
+    <radialGradient id="headFront" cx="36%" cy="30%" r="68%">
+      <stop offset="0%" stop-color="#7ebdff" />
+      <stop offset="25%" stop-color="#4f93d3" />
+      <stop offset="65%" stop-color="#27619a" />
+      <stop offset="100%" stop-color="#153b66" />
+    </radialGradient>
+
+    <linearGradient id="headCylinderSide" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#214b7e" />
+      <stop offset="50%" stop-color="#102d53" />
+      <stop offset="100%" stop-color="#091a32" />
+    </linearGradient>
+
+    <!-- 3D Extrusion Side Gradients -->
+    <linearGradient id="sideDarkRight" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1c4475" />
+      <stop offset="35%" stop-color="#0f294e" />
+      <stop offset="100%" stop-color="#07152a" />
+    </linearGradient>
+
+    <linearGradient id="sideDarkLeft" x1="100%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#255187" />
+      <stop offset="40%" stop-color="#13315a" />
+      <stop offset="100%" stop-color="#0a1c36" />
+    </linearGradient>
+
+    <!-- Top Chamfer / Bevel Gradients (Catching overhead key light) -->
+    <linearGradient id="topBevel" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#3d7ebf" />
+      <stop offset="50%" stop-color="#73abee" />
+      <stop offset="100%" stop-color="#a4d1fd" />
+    </linearGradient>
+
+    <linearGradient id="specularRim" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#d6ebff" stop-opacity="0.95" />
+      <stop offset="40%" stop-color="#80baf3" stop-opacity="0.75" />
+      <stop offset="85%" stop-color="#2b67a5" stop-opacity="0.3" />
+      <stop offset="100%" stop-color="#0e2a4e" stop-opacity="0.0" />
+    </linearGradient>
+
+    <linearGradient id="specularGlint" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.9" />
+      <stop offset="50%" stop-color="#a8d4ff" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0.4" />
+    </linearGradient>
+
+    <!-- Subtle Ground Ambient Shadow Filter -->
+    <filter id="softContactShadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="16" stdDeviation="14" flood-color="#040e1e" flood-opacity="0.38" />
+    </filter>
+
+    <!-- Subtle Metallic Surface Glaze -->
+    <linearGradient id="surfaceSheen" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.35" />
+      <stop offset="25%" stop-color="#ffffff" stop-opacity="0.1" />
+      <stop offset="50%" stop-color="#ffffff" stop-opacity="0.0" />
+      <stop offset="75%" stop-color="#000000" stop-opacity="0.1" />
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.25" />
+    </linearGradient>
+  </defs>
+
+  <!-- Group translated to center within 440x540 viewBox -->
+  <g transform="translate(30, 26)" filter="url(#softContactShadow)">
+
+    <!-- ==================== 1. 3D EXTRUDED SIDES (Back Depth) ==================== -->
+
+    <!-- V1: Left Arm Outer Left Extruded Face -->
+    <path d="
+      M 10 42
+      L -8 47
+      L 86 352
+      L 104 336
+      Z
+    " fill="url(#sideDarkLeft)" />
+
+    <!-- V1: Left Arm Top Bevel Cap -->
+    <path d="
+      M 10 42
+      L -8 47
+      L 54 35
+      L 72 30
+      Z
+    " fill="url(#topBevel)" />
+
+    <!-- Head: 3D Cylinder Depth (back rim & depth side) -->
+    <ellipse cx="175" cy="115" rx="32" ry="14" fill="url(#topBevel)" />
+    <path d="
+      M 143 120
+      C 143 102, 207 102, 207 120
+      L 207 124
+      C 207 106, 143 106, 143 124
+      Z
+    " fill="url(#headCylinderSide)" />
+
+    <!-- V1: Torso Right Extruded Side Face -->
+    <path d="
+      M 204 162
+      L 226 172
+      L 126 352
+      L 104 336
+      Z
+    " fill="url(#sideDarkRight)" />
+
+    <!-- V1: Neck Notch Top Bevel -->
+    <path d="
+      M 148 162
+      L 148 155
+      L 204 155
+      L 204 162
+      Z
+    " fill="url(#topBevel)" opacity="0.9" />
+
+    <!-- V2: Long Diagonal Arm - Right Extruded Side Face -->
+    <!-- Extends along the full right flank of the ascending arm -->
+    <path d="
+      M 366 14
+      L 390 26
+      L 226 304
+      L 204 292
+      Z
+    " fill="url(#sideDarkRight)" />
+
+    <!-- V2: Long Diagonal Arm - Top Bevel Cap -->
+    <path d="
+      M 320 24
+      L 344 12
+      L 390 26
+      L 366 14
+      Z
+    " fill="url(#topBevel)" />
+
+    <!-- V2: Right Short Outer Arm - Right Extruded Side Face -->
+    <path d="
+      M 354 226
+      L 374 238
+      L 234 484
+      L 214 468
+      Z
+    " fill="url(#sideDarkRight)" />
+
+    <!-- V2: Right Short Outer Arm - Top Bevel Cap -->
+    <path d="
+      M 318 234
+      L 338 222
+      L 374 238
+      L 354 226
+      Z
+    " fill="url(#topBevel)" />
+
+    <!-- V2: Inner Crotch Crease Extrusion Shadow -->
+    <path d="
+      M 240 372
+      L 256 384
+      L 220 304
+      L 204 292
+      Z
+    " fill="url(#sideDarkLeft)" opacity="0.75" />
+
+    <!-- ==================== 2. FRONT METALLIC FACES ==================== -->
+
+    <!-- V1: Main Left Glyph with Consultant Figure Front Face -->
+    <path d="
+      M 10 42
+      L 72 30
+      L 120 246
+      L 148 195
+      L 130 168
+      L 148 162
+      L 204 162
+      L 104 336
+      Z
+    " fill="url(#frontMetalV1)" />
+
+    <!-- V1: Metallic Sheen Overlay -->
+    <path d="
+      M 10 42
+      L 72 30
+      L 120 246
+      L 148 195
+      L 130 168
+      L 148 162
+      L 204 162
+      L 104 336
+      Z
+    " fill="url(#surfaceSheen)" mix-blend-mode="overlay" opacity="0.8" />
+
+    <!-- V1: Precision Machined Edge Chamfer Highlight (Top and Outer Lighted Edges) -->
+    <path d="
+      M 10 42
+      L 72 30
+      L 120 246
+      L 148 195
+      L 130 168
+      L 148 162
+      L 204 162
+    " fill="none" stroke="url(#specularRim)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- V1: Subtle Left Edge Chamfer -->
+    <line x1="10" y1="42" x2="104" y2="336" stroke="url(#specularRim)" stroke-width="1.5" stroke-opacity="0.7" />
+
+    <!-- V1: Torso Right Chamfer Line -->
+    <line x1="204" y1="162" x2="104" y2="336" stroke="url(#specularRim)" stroke-width="2" stroke-opacity="0.85" />
+
+    <!-- Head: 3D Front Circle Disc with Radial Sheen -->
+    <circle cx="175" cy="120" r="31" fill="url(#headFront)" />
+    <!-- Head Disc Outer Rim Specular Highlight -->
+    <circle cx="175" cy="120" r="30.5" fill="none" stroke="url(#specularRim)" stroke-width="2" />
+    <circle cx="174" cy="119" r="29.5" fill="none" stroke="url(#specularGlint)" stroke-width="1" stroke-opacity="0.4" />
+
+    <!-- V2: Main Right Glyph with Upward Reach Front Face -->
+    <path d="
+      M 366 14
+      L 320 24
+      L 150 320
+      L 214 468
+      L 354 226
+      L 318 234
+      L 240 372
+      L 204 292
+      Z
+    " fill="url(#frontMetalV2)" />
+
+    <!-- V2: Metallic Sheen Overlay -->
+    <path d="
+      M 366 14
+      L 320 24
+      L 150 320
+      L 214 468
+      L 354 226
+      L 318 234
+      L 240 372
+      L 204 292
+      Z
+    " fill="url(#surfaceSheen)" mix-blend-mode="overlay" opacity="0.8" />
+
+    <!-- V2: Precision Machined Edge Chamfer Highlights -->
+    <!-- Top and Inner Lighted Edges of V2 -->
+    <path d="
+      M 366 14
+      L 320 24
+      L 150 320
+      L 214 468
+    " fill="none" stroke="url(#specularRim)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+    <!-- V2: Right Ascending Outer Edge Highlight -->
+    <line x1="366" y1="14" x2="204" y2="292" stroke="url(#specularRim)" stroke-width="2.5" stroke-opacity="0.95" />
+
+    <!-- V2: Short Outer Right Arm Chamfer Highlight -->
+    <path d="
+      M 318 234
+      L 354 226
+      L 214 468
+    " fill="none" stroke="url(#specularRim)" stroke-width="2.2" stroke-linejoin="round" />
+
+    <!-- Ground Contact Shadow Accents at tips -->
+    <ellipse cx="104" cy="346" rx="22" ry="6" fill="#040f22" opacity="0.45" filter="blur(4px)" />
+    <ellipse cx="218" cy="478" rx="26" ry="7" fill="#040f22" opacity="0.48" filter="blur(4px)" />
+  </g>
+</svg>

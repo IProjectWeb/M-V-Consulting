@@ -11,6 +11,7 @@
   <meta name="author" content="VV Consulting Group">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="https://vvconsultinggroup.com/">
+  <link rel="icon" type="image/svg+xml" href="vv-logo.svg">
 
   <!-- Open Graph / Facebook / WhatsApp -->
   <meta property="og:type" content="website">
@@ -84,23 +85,19 @@
   <!-- Custom CSS -->
   <link rel="stylesheet" href="styles.css">
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-[#0f2b5c]/25 selection:text-slate-900 min-h-screen flex flex-col">
+<body class="bg-[#e9f0fa] text-slate-800 font-sans antialiased selection:bg-[#0f2b5c]/25 selection:text-slate-900 min-h-screen flex flex-col">
 
   <!-- HEADER -->
-  <header id="main-header" class="sticky top-0 z-50 transition-all duration-300 bg-white py-5 border-b border-slate-100">
+  <header id="main-header" class="sticky top-0 z-50 transition-all duration-300 bg-white py-5 border-b border-slate-200">
     <div class="max-w-7xl mx-auto px-6 flex items-center justify-between">
       <!-- Logo -->
       <a href="#inicio" class="flex items-center gap-3.5 group">
-        <div class="w-10 h-10 bg-[#0f2b5c] flex items-center justify-center rounded-none rotate-45 group-hover:scale-105 transition-transform duration-300 shadow-sm border border-[#091b3b]">
-          <div class="w-5 h-5 border-2 border-white -rotate-45 flex items-center justify-center">
-            <i data-lucide="shield" class="w-3.5 h-3.5 text-white fill-current"></i>
-          </div>
-        </div>
+        <img src="vv-logo.svg" alt="VV Consulting Group Logo" class="h-10 sm:h-11 w-auto object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-sm">
         <div>
-          <span class="font-sans font-black text-xl md:text-2xl tracking-tighter text-slate-900 block">
-            VV <span class="text-[#0f2b5c] font-normal">Consulting Group</span>
+          <span class="font-sans font-black text-xl md:text-2xl tracking-tighter text-slate-900 block leading-tight">
+            <span class="text-[#0f2b5c] font-normal">Consulting Group</span>
           </span>
-          <span class="font-mono font-bold text-[9px] uppercase tracking-widest text-slate-500 block -mt-1">
+          <span class="font-mono font-bold text-[9px] uppercase tracking-widest text-slate-600 block">
             Asesoría & Finanzas
           </span>
         </div>
@@ -108,16 +105,16 @@
 
       <!-- Desktop Navigation -->
       <nav class="hidden lg:flex items-center gap-1">
-        <a href="#inicio" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-slate-100 transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Inicio</a>
-        <a href="#nosotros" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-slate-100 transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Nosotros</a>
-        <a href="#mision-vision" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-slate-100 transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Misión y Visión</a>
-        <a href="#valores" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-slate-100 transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Valores</a>
-        <a href="#servicios" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-slate-100 transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Servicios</a>
-        <a href="#contacto" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-slate-100 transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Contacto</a>
+        <a href="#inicio" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-[#dbe7f7] transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Inicio</a>
+        <a href="#nosotros" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-[#dbe7f7] transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Nosotros</a>
+        <a href="#mision-vision" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-[#dbe7f7] transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Misión y Visión</a>
+        <a href="#valores" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-[#dbe7f7] transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Valores</a>
+        <a href="#servicios" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-[#dbe7f7] transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Servicios</a>
+        <a href="#contacto" class="px-3.5 py-2 text-xs font-black uppercase tracking-wider text-slate-800 hover:text-[#0f2b5c] hover:bg-[#dbe7f7] transition-all border-b-2 border-transparent hover:border-[#0f2b5c]">Contacto</a>
       </nav>
 
       <!-- Mobile Menu Button -->
-      <button id="menu-toggle" class="lg:hidden p-2 rounded-md text-slate-800 hover:bg-slate-100 transition-colors" aria-label="Abrir Menú">
+      <button id="menu-toggle" class="lg:hidden p-2 rounded-md text-slate-800 hover:bg-[#dbe7f7] transition-colors" aria-label="Abrir Menú">
         <i data-lucide="menu" class="w-6 h-6"></i>
       </button>
     </div>
@@ -125,24 +122,24 @@
     <!-- Mobile Navigation Drawer -->
     <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-slate-200 shadow-xl">
       <div class="px-6 py-4 flex flex-col gap-1.5">
-        <a href="#inicio" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-[#0f2b5c] hover:bg-slate-100">Inicio</a>
-        <a href="#nosotros" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-[#0f2b5c] hover:bg-slate-100">Nosotros</a>
-        <a href="#mision-vision" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-[#0f2b5c] hover:bg-slate-100">Misión y Visión</a>
-        <a href="#valores" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-[#0f2b5c] hover:bg-slate-100">Valores</a>
-        <a href="#servicios" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-[#0f2b5c] hover:bg-slate-100">Servicios</a>
-        <a href="#contacto" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-700 hover:text-[#0f2b5c] hover:bg-slate-100">Contacto</a>
+        <a href="#inicio" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-800 hover:text-[#0f2b5c] hover:bg-[#dbe7f7]">Inicio</a>
+        <a href="#nosotros" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-800 hover:text-[#0f2b5c] hover:bg-[#dbe7f7]">Nosotros</a>
+        <a href="#mision-vision" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-800 hover:text-[#0f2b5c] hover:bg-[#dbe7f7]">Misión y Visión</a>
+        <a href="#valores" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-800 hover:text-[#0f2b5c] hover:bg-[#dbe7f7]">Valores</a>
+        <a href="#servicios" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-800 hover:text-[#0f2b5c] hover:bg-[#dbe7f7]">Servicios</a>
+        <a href="#contacto" class="mobile-nav-link px-4 py-2.5 text-sm font-bold text-slate-800 hover:text-[#0f2b5c] hover:bg-[#dbe7f7]">Contacto</a>
       </div>
     </div>
   </header>
 
   <!-- HERO SECTION -->
-  <section id="inicio" class="relative min-h-[85vh] flex items-center bg-gradient-to-b from-slate-50 via-blue-50/20 to-white overflow-hidden py-16 lg:py-24 border-b border-slate-200/60">
+  <section id="inicio" class="relative min-h-[85vh] flex items-center bg-gradient-to-b from-[#e9f0fa] via-blue-100/70 to-white overflow-hidden py-16 lg:py-24 border-b border-slate-300">
     <!-- Background soft ambient glows -->
-    <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-400/10 rounded-full blur-3xl pointer-events-none"></div>
-    <div class="absolute bottom-0 left-[-10%] w-[600px] h-[600px] bg-sky-300/10 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute top-0 right-0 w-[500px] h-[500px] bg-blue-400/20 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute bottom-0 left-[-10%] w-[600px] h-[600px] bg-sky-300/20 rounded-full blur-3xl pointer-events-none"></div>
 
     <!-- Grid overlay -->
-    <div class="absolute inset-0 bg-[linear-gradient(to_right,#00000005_1px,transparent_1px),linear-gradient(to_bottom,#00000005_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
+    <div class="absolute inset-0 bg-[linear-gradient(to_right,#0f2b5c14_1px,transparent_1px),linear-gradient(to_bottom,#0f2b5c14_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_50%,#000_70%,transparent_100%)]"></div>
 
     <div class="max-w-7xl mx-auto px-6 w-full relative z-10 grid lg:grid-cols-12 gap-12 lg:gap-8 items-center">
       <!-- Left Content -->
@@ -157,7 +154,7 @@
           <span class="text-[#0f2b5c]">DEFINE TU ÉXITO</span>
         </h1>
 
-        <p class="text-base md:text-lg text-slate-600 font-medium max-w-xl mb-8 leading-relaxed">
+        <p class="text-base md:text-lg text-slate-800 font-medium max-w-xl mb-8 leading-relaxed">
           Impulsamos tu crecimiento comercial y corporativo con total transparencia, rigor técnico y la máxima confianza en el mercado panameño.
         </p>
 
@@ -175,12 +172,9 @@
       <!-- Right Card -->
       <div class="lg:col-span-5 relative w-full">
         <!-- Accent Rotated block in background -->
-        <div class="absolute inset-0 bg-[#0f2b5c]/15 translate-x-3 translate-y-3 rounded-none pointer-events-none"></div>
+        <div class="absolute inset-0 bg-[#0f2b5c]/25 translate-x-3 translate-y-3 rounded-none pointer-events-none"></div>
 
-        <div class="relative bg-white border-2 border-slate-300 rounded-none p-8 md:p-10 shadow-2xl overflow-hidden">
-          <div class="absolute top-0 right-0 bg-[#0f2b5c] text-white font-mono font-black text-[10px] uppercase tracking-widest px-4 py-2.5 shadow-sm border-b border-l border-[#1b4386]/40">
-            FINANZAS
-          </div>
+        <div class="relative bg-white border-2 border-[#b7cbe8] rounded-none p-8 md:p-10 shadow-2xl overflow-hidden">
 
           <div class="space-y-6 pt-4">
             <div class="flex items-start gap-4">
@@ -189,7 +183,7 @@
               </div>
               <div>
                 <h3 class="text-slate-900 font-black uppercase tracking-wide text-sm">Experiencia Comprobada</h3>
-                <p class="text-slate-600 text-sm mt-1 leading-relaxed">
+                <p class="text-slate-700 text-sm mt-1 leading-relaxed">
                   Más de 15 años respaldando empresas en cumplimiento tributario y fiscal.
                 </p>
               </div>
@@ -201,7 +195,7 @@
               </div>
               <div>
                 <h3 class="text-slate-900 font-black uppercase tracking-wide text-sm">Rigor & Precisión</h3>
-                <p class="text-slate-600 text-sm mt-1 leading-relaxed">
+                <p class="text-slate-700 text-sm mt-1 leading-relaxed">
                   Auditorías exhaustivas y reportes bajo los más altos estándares normativos.
                 </p>
               </div>
@@ -213,7 +207,7 @@
               </div>
               <div>
                 <h3 class="text-slate-900 font-black uppercase tracking-wide text-sm">Aliado Estratégico</h3>
-                <p class="text-slate-600 text-sm mt-1 leading-relaxed">
+                <p class="text-slate-700 text-sm mt-1 leading-relaxed">
                   Soporte idóneo adaptado al tamaño, ritmo y proyecciones de tu negocio.
                 </p>
               </div>
@@ -225,7 +219,7 @@
   </section>
 
   <!-- ABOUT & MISSION / VISION WRAPPER WITH BACKGROUND -->
-  <div class="bg-[#f4f7fc] relative">
+  <div class="bg-[#e9f0fa] relative">
     <!-- Background diagonal lines -->
     <div class="absolute inset-0 geo-diagonal-stripes-dark opacity-40 pointer-events-none"></div>
 
@@ -244,7 +238,7 @@
 
         <div class="grid lg:grid-cols-12 gap-8 items-stretch">
           <!-- Quiénes somos -->
-          <div class="lg:col-span-7 bg-white p-8 md:p-10 rounded-none shadow-xl border-l-[6px] border-[#0f2b5c] flex flex-col justify-between border-y border-r border-slate-300">
+          <div class="lg:col-span-7 bg-white p-8 md:p-10 rounded-none shadow-xl border-l-[6px] border-[#0f2b5c] flex flex-col justify-between border-y border-r border-[#b7cbe8]">
             <div>
               <div class="bg-[#0f2b5c] text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 border border-[#1b4386]/40 shadow-md">
                 <i data-lucide="users" class="w-6 h-6 text-white"></i>
@@ -255,7 +249,7 @@
               <p class="text-slate-700 leading-relaxed mb-4 text-sm md:text-base font-medium">
                 Somos <strong class="text-slate-900 font-black">VV Consulting Group</strong>, una firma panameña especializada en consultoría financiera, contabilidad, auditoría, servicios fiscales y asesoría corporativa, comprometida con brindar soluciones integrales que impulsen la transparencia, eficiencia y cumplimiento normativo de nuestros clientes.
               </p>
-              <p class="text-slate-600 leading-relaxed text-sm md:text-base">
+              <p class="text-slate-700 leading-relaxed text-sm md:text-base">
                 Nuestro equipo está conformado por contadores públicos autorizados (CPA), auditores, asesores fiscales y consultores financieros con amplia experiencia en distintos sectores económicos. Brindamos una atención personalizada, con enfoque técnico y estratégico, adaptándonos a las necesidades particulares de cada cliente.
               </p>
             </div>
@@ -272,7 +266,7 @@
               <h3 class="font-sans font-black text-2xl tracking-tight text-white uppercase mb-4">
                 Confianza y experiencia
               </h3>
-              <p class="text-slate-200 leading-relaxed text-sm md:text-base font-medium">
+              <p class="text-blue-50 leading-relaxed text-sm md:text-base font-medium">
                 Más de una década asesorando empresas en Panamá, combinando conocimiento técnico y visión estratégica. Tu éxito financiero es nuestro absoluto compromiso.
               </p>
             </div>
@@ -281,7 +275,7 @@
               <span class="font-mono font-bold text-xs tracking-widest uppercase text-sky-200">
                 Estabilidad & Crecimiento
               </span>
-              <span class="text-slate-300 text-xs font-mono">PANAMÁ</span>
+              <span class="text-blue-100 text-xs font-mono">PANAMÁ</span>
             </div>
           </div>
         </div>
@@ -289,11 +283,11 @@
     </section>
 
     <!-- MISSION & VISION SECTION -->
-    <section id="mision-vision" class="section py-20 lg:py-28 bg-white relative z-10 border-t border-slate-200/80">
+    <section id="mision-vision" class="section py-20 lg:py-28 bg-white relative z-10 border-t border-slate-300">
       <div class="max-w-7xl mx-auto px-6">
         <div class="grid lg:grid-cols-2 gap-8 items-stretch mb-16">
           <!-- Mision -->
-          <div class="bg-white p-8 md:p-10 rounded-none border-l-[6px] border-[#0f2b5c] border-y border-r border-slate-300 shadow-lg flex flex-col justify-between">
+          <div class="bg-white p-8 md:p-10 rounded-none border-l-[6px] border-[#0f2b5c] border-y border-r border-[#b7cbe8] shadow-lg flex flex-col justify-between">
             <div>
               <div class="bg-[#0f2b5c] text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 border border-[#1b4386]/40 shadow-md">
                 <i data-lucide="target" class="w-6 h-6 text-white"></i>
@@ -308,7 +302,7 @@
           </div>
 
           <!-- Vision -->
-          <div class="bg-white p-8 md:p-10 rounded-none border-l-[6px] border-[#091b3b] border-y border-r border-slate-300 shadow-lg flex flex-col justify-between">
+          <div class="bg-white p-8 md:p-10 rounded-none border-l-[6px] border-[#091b3b] border-y border-r border-[#b7cbe8] shadow-lg flex flex-col justify-between">
             <div>
               <div class="bg-[#0f2b5c] text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 border border-[#1b4386]/40 shadow-md">
                 <i data-lucide="eye" class="w-6 h-6 text-white"></i>
@@ -416,7 +410,7 @@
   </section>
 
   <!-- SERVICES SECTION -->
-  <section id="servicios" class="py-20 lg:py-28 bg-white relative">
+  <section id="servicios" class="py-20 lg:py-28 bg-[#e8eff8] relative">
     <!-- Background visual stripes -->
     <div class="absolute inset-x-0 top-0 h-40 geo-diagonal-stripes-dark opacity-20 pointer-events-none"></div>
 
@@ -433,35 +427,35 @@
         </p>
         <div class="w-16 h-1 bg-[#0f2b5c] mt-4"></div>
       </div>
-
       <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
-        <!-- Service 1: Auditoría -->
+
+        <!-- Service 1: Asesoría Financiera -->
         <div class="bg-white p-8 rounded-none border-2 border-slate-300 border-l-[6px] border-l-[#0f2b5c] shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
           <div>
             <div class="bg-[#0f2b5c] text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 border border-[#1b4386]/40 shadow-md">
-              <i data-lucide="clipboard-list" class="w-5 h-5 text-white"></i>
+              <i data-lucide="pie-chart" class="w-5 h-5 text-white"></i>
             </div>
-            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Auditoría</h3>
+            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Asesoría Financiera</h3>
             <ul class="space-y-3 mb-8">
               <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
                 <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
-                <span>Revisión completa de estados financieros</span>
+                <span>Asesoría estratégica y financiera para MICRO y PYMES.</span>
               </li>
               <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
                 <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
-                <span>Auditoría Contable y Fiscal estratégica</span>
+                <span>Trámites Bancarios y financiamientos.</span>
               </li>
               <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
                 <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
-                <span>Auditoría Forense especializada</span>
+                <span>Consultoria y análisis financiero.</span>
               </li>
               <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
                 <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
-                <span>Asesoría integral en controles internos</span>
+                <span>Capacitación y planificación de presupuestos.</span>
               </li>
             </ul>
           </div>
-          <button onclick="openModal('Auditoría')" class="w-full py-3.5 px-4 rounded-none text-[10px] font-black uppercase tracking-widest text-center text-white bg-[#0f2b5c] hover:bg-[#18458c] active:bg-[#0f2b5c] transition-all duration-200 shadow-md border border-[#1b4386]/40 cursor-pointer">
+          <button onclick="openModal('Asesoría Financiera')" class="w-full py-3.5 px-4 rounded-none text-[10px] font-black uppercase tracking-widest text-center text-white bg-[#0f2b5c] hover:bg-[#18458c] active:bg-[#0f2b5c] transition-all duration-200 shadow-md border border-[#1b4386]/40 cursor-pointer">
             Solicitar cotización
           </button>
         </div>
@@ -472,11 +466,11 @@
             <div class="bg-[#0f2b5c] text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 border border-[#1b4386]/40 shadow-md">
               <i data-lucide="calculator" class="w-5 h-5 text-white"></i>
             </div>
-            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Contabilidad</h3>
+            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Contabilidad.</h3>
             <ul class="space-y-3 mb-8">
               <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
                 <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
-                <span>Contabilidad General / Outsourcing</span>
+                <span>Contabilidad General / Outsourcing.</span>
               </li>
               <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
                 <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
@@ -484,11 +478,11 @@
               </li>
               <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
                 <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
-                <span>Elaboración de Estados Financieros</span>
+                <span>Elaboración de Estados Financieros.</span>
               </li>
               <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
                 <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
-                <span>Declaración Jurada de Renta anual</span>
+                <span>Declaración Jurada de Renta anual.</span>
               </li>
             </ul>
           </div>
@@ -497,37 +491,36 @@
           </button>
         </div>
 
-        <!-- Service 3: Asesoría Financiera -->
+        <!-- Service 3: Auditoría -->
         <div class="bg-white p-8 rounded-none border-2 border-slate-300 border-l-[6px] border-l-[#0f2b5c] shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
           <div>
             <div class="bg-[#0f2b5c] text-white w-12 h-12 rounded-none flex items-center justify-center mb-6 border border-[#1b4386]/40 shadow-md">
-              <i data-lucide="pie-chart" class="w-5 h-5 text-white"></i>
+              <i data-lucide="clipboard-list" class="w-5 h-5 text-white"></i>
             </div>
-            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Asesoría Financiera</h3>
+            <h3 class="font-sans font-black uppercase tracking-tight text-lg text-slate-900 mb-4">Auditoría</h3>
             <ul class="space-y-3 mb-8">
               <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
                 <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
-                <span>Asesoría estratégica y financiera para PYMES</span>
+                <span>Revisión completa de estados financieros.</span>
               </li>
               <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
                 <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
-                <span>Trámites Bancarios y financiamientos</span>
+                <span>Auditoría Contable y Fiscal estratégica.</span>
               </li>
               <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
                 <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
-                <span>Análisis Financiero profundo</span>
+                <span>Auditoría Forense especializada.</span>
               </li>
               <li class="flex items-start gap-2.5 text-slate-700 text-sm font-medium leading-relaxed">
                 <i data-lucide="check-circle-2" class="w-4 h-4 text-[#0f2b5c] shrink-0 mt-0.5"></i>
-                <span>Capacitación y planificación de presupuestos</span>
+                <span>Asesoría integral en controles internos.</span>
               </li>
             </ul>
           </div>
-          <button onclick="openModal('Asesoría Financiera')" class="w-full py-3.5 px-4 rounded-none text-[10px] font-black uppercase tracking-widest text-center text-white bg-[#0f2b5c] hover:bg-[#18458c] active:bg-[#0f2b5c] transition-all duration-200 shadow-md border border-[#1b4386]/40 cursor-pointer">
+          <button onclick="openModal('Auditoría')" class="w-full py-3.5 px-4 rounded-none text-[10px] font-black uppercase tracking-widest text-center text-white bg-[#0f2b5c] hover:bg-[#18458c] active:bg-[#0f2b5c] transition-all duration-200 shadow-md border border-[#1b4386]/40 cursor-pointer">
             Solicitar cotización
           </button>
         </div>
-
         <!-- Service 4: Trámites Legales -->
         <div class="bg-white p-8 rounded-none border-2 border-slate-300 border-l-[6px] border-l-[#0f2b5c] shadow-lg hover:shadow-2xl hover:-translate-y-1 transition-all duration-300 flex flex-col justify-between">
           <div>
@@ -613,7 +606,7 @@
   </section>
 
   <!-- NEWSLETTER SECTION -->
-  <section id="boletin" class="py-20 bg-[#f4f7fc] relative overflow-hidden">
+  <section id="boletin" class="py-20 bg-[#dce8f5] relative overflow-hidden">
     <!-- Background visual stripes -->
     <div class="absolute inset-0 geo-diagonal-stripes-dark opacity-35 pointer-events-none"></div>
 
@@ -665,9 +658,7 @@
           <div class="absolute inset-0 geo-diagonal-stripes opacity-15 pointer-events-none"></div>
 
           <div class="relative z-10">
-            <span class="text-xs font-black uppercase tracking-widest text-sky-200 bg-white/10 px-3 py-1 border border-white/20 inline-block mb-4 shadow-xs">
-              Canales Directos
-            </span>
+            
             <h2 class="font-sans font-black text-3xl md:text-4xl tracking-tighter text-white uppercase mb-6">
               Contáctanos
             </h2>
@@ -788,17 +779,13 @@
 
     <div class="max-w-7xl mx-auto px-6 relative z-10 flex flex-col items-center text-center">
       <!-- Brand -->
-      <a href="#inicio" class="flex items-center gap-4 group mb-8">
-        <div class="w-10 h-10 bg-[#0f2b5c] flex items-center justify-center rounded-none rotate-45 group-hover:scale-105 transition-transform duration-300 shadow-lg shadow-[#0f2b5c]/40 border border-slate-400/30">
-          <div class="w-5 h-5 border border-white -rotate-45 flex items-center justify-center">
-            <i data-lucide="shield" class="w-3.5 h-3.5 text-white fill-current"></i>
-          </div>
-        </div>
+      <a href="#inicio" class="flex items-center gap-3.5 group mb-8">
+        <img src="vv-logo.svg" alt="VV Consulting Group Logo" class="h-11 sm:h-12 w-auto object-contain group-hover:scale-105 transition-transform duration-300 drop-shadow-[0_0_12px_rgba(88,154,217,0.35)]">
         <div class="text-left">
-          <span class="font-sans font-black text-xl tracking-tighter text-white block">
+          <span class="font-sans font-black text-xl tracking-tighter text-white block leading-tight">
             VV <span class="text-slate-300 font-light">Consulting Group</span>
           </span>
-          <span class="font-mono font-bold text-[9px] uppercase tracking-widest text-slate-400 block -mt-1">
+          <span class="font-mono font-bold text-[9px] uppercase tracking-widest text-slate-400 block">
             Asesoría & Finanzas
           </span>
         </div>
