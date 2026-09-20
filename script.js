@@ -56,12 +56,12 @@ function openModal(serviceTitle) {
 
   if (emailBtn) {
     const subject = encodeURIComponent(`Solicitud de Cotización - ${serviceTitle}`);
-    const body = encodeURIComponent(`Hola VV Soluciones Financieras,\n\nMe gustaría solicitar una cotización para el servicio de: ${serviceTitle}.\n\nQuedo atento a su respuesta.\n\nSaludos.`);
-    emailBtn.href = `mailto:contacto@vvsoluciones.com?subject=${subject}&body=${body}`;
+    const body = encodeURIComponent(`Hola VV Consulting Group,\n\nMe gustaría solicitar una cotización para el servicio de: ${serviceTitle}.\n\nQuedo atento a su respuesta.\n\nSaludos.`);
+    emailBtn.href = `mailto:contacto@vvconsultinggroup.com?subject=${subject}&body=${body}`;
   }
 
   if (whatsappBtn) {
-    const text = encodeURIComponent(`Hola VV Soluciones Financieras, me gustaría solicitar información y cotización para el servicio de: ${serviceTitle}.`);
+    const text = encodeURIComponent(`Hola VV Consulting Group, me gustaría solicitar información y cotización para el servicio de: ${serviceTitle}.`);
     whatsappBtn.href = `https://wa.me/50760000000?text=${text}`;
   }
 
